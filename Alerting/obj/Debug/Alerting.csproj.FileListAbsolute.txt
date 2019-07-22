@@ -1,0 +1,7 @@
+C:\Users\320052122\Desktop\Alerting\Alerting\bin\Debug\Alerting.exe.config
+C:\Users\320052122\Desktop\Alerting\Alerting\bin\Debug\Alerting.exe
+C:\Users\320052122\Desktop\Alerting\Alerting\bin\Debug\Alerting.pdb
+C:\Users\320052122\Desktop\Alerting\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
+C:\Users\320052122\Desktop\Alerting\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Desktop\Alerting\Alerting\obj\Debug\Alerting.exe
+C:\Users\320052122\Desktop\Alerting\Alerting\obj\Debug\Alerting.pdb
