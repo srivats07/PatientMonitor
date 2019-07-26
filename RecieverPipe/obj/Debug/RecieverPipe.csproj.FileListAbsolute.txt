@@ -1,0 +1,7 @@
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\bin\Debug\RecieverPipe.exe.config
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\bin\Debug\RecieverPipe.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\bin\Debug\RecieverPipe.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\obj\Debug\RecieverPipe.csprojAssemblyReference.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\obj\Debug\RecieverPipe.csproj.CoreCompileInputs.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\obj\Debug\RecieverPipe.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipe\obj\Debug\RecieverPipe.pdb

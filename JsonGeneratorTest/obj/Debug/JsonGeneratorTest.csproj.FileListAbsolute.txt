@@ -1,0 +1,14 @@
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\JsonGeneratorTest.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\JsonGeneratorTest.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csprojAssemblyReference.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csproj.CoreCompileInputs.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csproj.CopyComplete
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.pdb

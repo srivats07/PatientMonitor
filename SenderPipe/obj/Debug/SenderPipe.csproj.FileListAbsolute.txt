@@ -1,0 +1,11 @@
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\SenderPipe.exe.config
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\SenderPipe.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\SenderPipe.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\JsonGenerator.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\JsonGenerator.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\bin\Debug\JsonGenerator.exe.config
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\obj\Debug\SenderPipe.csprojAssemblyReference.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\obj\Debug\SenderPipe.csproj.CoreCompileInputs.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\obj\Debug\SenderPipe.csproj.CopyComplete
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\obj\Debug\SenderPipe.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipe\obj\Debug\SenderPipe.pdb

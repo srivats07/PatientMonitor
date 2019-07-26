@@ -12,3 +12,10 @@ C:\Users\320067581\PatientMonitor\Alerting\obj\Debug\Alerting.csprojAssemblyRefe
 C:\Users\320067581\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
 C:\Users\320067581\PatientMonitor\Alerting\obj\Debug\Alerting.exe
 C:\Users\320067581\PatientMonitor\Alerting\obj\Debug\Alerting.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Alerting.exe.config
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Alerting.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Alerting.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.pdb
