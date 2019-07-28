@@ -28,54 +28,60 @@ namespace SenderPipe
                 {
                     var values = new List<string>();
 
-                    // Get message from other process
-                    using (var sr = new StreamReader(pipeRead))
-                    {
-                        string temp;
-
-                        // Wait for 'sync message' from the other process
-                        do
-                        {
-                            temp = sr.ReadLine();
-                        } while (temp == null || !temp.StartsWith("SYNC"));
-
-                        // Read until 'end message' from the server
-                        while ((temp = sr.ReadLine()) != null && !temp.StartsWith("END"))
-                        {
-                            values.Add(temp);
-                        }
-
-                    }
+                    Reciever(pipeRead, values);
 
 
-                    // Send value to calling process
-                    using (var sw = new StreamWriter(pipeWrite))
-                    {
-                        sw.AutoFlush = true;
-                        // Send a 'sync message' and wait for the calling process to receive it
-                        sw.WriteLine("SYNC");
-                        pipeWrite.WaitForPipeDrain();
-
-                        StringBuilder builder = new StringBuilder(100);
-
-                        Generator generator = new Generator();
-
-
-                        builder = generator.FileHandler();
-
-                        sw.WriteLine(builder);
-
-
-
-
-                        sw.WriteLine("END");
-
-                    }
+                    Sender(pipeWrite);
                 }
                 catch (Exception ex)
                 {
                     //TODO Exception handling/logging
                     throw;
+                }
+            }
+        }
+
+        private static void Sender(AnonymousPipeClientStream pipeWrite)
+        {
+            // Send value to calling process
+            using (var sw = new StreamWriter(pipeWrite))
+            {
+                sw.AutoFlush = true;
+                // Send a 'sync message' and wait for the calling process to receive it
+                sw.WriteLine("SYNC");
+                pipeWrite.WaitForPipeDrain();
+
+                StringBuilder content = new StringBuilder(100);
+
+                Generator generator = new Generator();
+
+
+                content = generator.FileHandler();
+
+                sw.WriteLine(content);
+
+
+                sw.WriteLine("END");
+            }
+        }
+
+        private static void Reciever(AnonymousPipeClientStream pipeRead, List<string> values)
+        {
+            // Get message from other process
+            using (var sr = new StreamReader(pipeRead))
+            {
+                string temp;
+
+                // Wait for 'sync message' from the other process
+                do
+                {
+                    temp = sr.ReadLine();
+                } while (temp == null || !temp.StartsWith("SYNC"));
+
+                // Read until 'end message' from the server
+                while ((temp = sr.ReadLine()) != null && !temp.StartsWith("END"))
+                {
+                    values.Add(temp);
                 }
             }
         }

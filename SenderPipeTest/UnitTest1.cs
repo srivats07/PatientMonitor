@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace SenderPipeTest
 {
     [TestClass]
-    public class UnitTest1
+    public class SpipeTest
     {
         [TestMethod]
         public void TestMethod1()

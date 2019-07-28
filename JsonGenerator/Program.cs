@@ -15,6 +15,7 @@ namespace JsonGenerator
         {
             Generator ob = new Generator();
             ob.FileHandler();
+            
         }
 
         public StringBuilder FileHandler()

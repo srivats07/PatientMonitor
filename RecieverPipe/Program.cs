@@ -14,9 +14,6 @@ namespace RecieverPipe
         {
             string path = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) + @"\SenderPipe\bin\Debug\SenderPipe.exe";
 
-
-
-
             var result = new List<string>();
 
             // Create separate process
