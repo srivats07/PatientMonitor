@@ -11,3 +11,13 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParam
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CoreCompileInputs.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.exe.config
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csprojAssemblyReference.cache
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CopyComplete
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.pdb

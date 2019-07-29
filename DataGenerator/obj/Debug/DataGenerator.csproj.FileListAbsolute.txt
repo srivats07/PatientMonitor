@@ -5,3 +5,13 @@ C:\Users\320067581\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csprojAs
 C:\Users\320067581\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csproj.CoreCompileInputs.cache
 C:\Users\320067581\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.exe
 C:\Users\320067581\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.pdb
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\bin\Debug\DataGenerator.exe.config
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\bin\Debug\DataGenerator.exe
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\bin\Debug\DataGenerator.pdb
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csprojAssemblyReference.cache
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csproj.CopyComplete
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.exe
+C:\Users\320052122\Patient\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.pdb
