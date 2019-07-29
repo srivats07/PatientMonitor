@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Alert
 {
@@ -31,9 +32,23 @@ namespace Alert
         }
         private static void SendAlert(bool temp, bool spo2, bool pr)
         {
-            if (temp) { Console.WriteLine("Abnormal Temperature value"); }
-            if (spo2) { Console.WriteLine("Abnormal SPO2 value"); }
-            if (pr) { Console.WriteLine("Abnormal Pulse Rate is detected"); }
+            if (temp)
+            {
+                Console.WriteLine("Abnormal Temperature value");
+                System.Windows.MessageBox.Show("Abnormal Temperature value");
+            }
+
+            if (spo2)
+            {
+                Console.WriteLine("Abnormal SPO2 value");
+                System.Windows.MessageBox.Show("Abnormal SPO2 value");
+            }
+
+            if (pr)
+            {
+                Console.WriteLine("Abnormal Pulse Rate is detected");
+                System.Windows.MessageBox.Show("Abnormal Pulse Rate is detected");
+            }
         }
 
         private static void ValueCheck(string[] values)

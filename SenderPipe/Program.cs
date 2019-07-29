@@ -24,6 +24,8 @@ namespace SenderPipe
             using (var pipeRead = new AnonymousPipeClientStream(PipeDirection.In, pipeReadHandle))
             using (var pipeWrite = new AnonymousPipeClientStream(PipeDirection.Out, pipeWriteHandle))
             {
+                if(pipeRead==null&&pipeWrite==null) return;
+
                 try
                 {
                     var values = new List<string>();

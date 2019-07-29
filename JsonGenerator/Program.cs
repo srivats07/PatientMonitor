@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
+using System.Threading;
+using Newtonsoft.Json;
 
 
 namespace JsonGenerator
@@ -27,15 +29,10 @@ namespace JsonGenerator
             {
                 var line = reader.ReadLine();
                 content.Append(line);
-
             }
-
-
             reader.Dispose();
             return content;
         }
-
-
-
     }
+    
 }

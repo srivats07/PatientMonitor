@@ -31,6 +31,7 @@ namespace RecieverPipe
             using (var pipeRead = new AnonymousPipeServerStream(PipeDirection.In, HandleInheritability.Inheritable))
             using (var pipeWrite = new AnonymousPipeServerStream(PipeDirection.Out, HandleInheritability.Inheritable))
             {
+                if (pipeRead == null && pipeWrite == null) return;
 
                 // Pass to the other process handles to the 2 pipes
 

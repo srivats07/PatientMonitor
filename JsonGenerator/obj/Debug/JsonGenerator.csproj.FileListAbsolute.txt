@@ -5,3 +5,6 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\obj\Debug\JsonGenerat
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\obj\Debug\JsonGenerator.csproj.CoreCompileInputs.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\obj\Debug\JsonGenerator.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\obj\Debug\JsonGenerator.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGenerator\obj\Debug\JsonGenerator.csproj.CopyComplete
