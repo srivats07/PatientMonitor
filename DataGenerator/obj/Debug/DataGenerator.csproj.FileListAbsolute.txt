@@ -12,3 +12,6 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\obj\Debug\DataGenerat
 C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csproj.CoreCompileInputs.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320067390\P_Monitor2\PatientMonitor\DataGenerator\obj\Debug\DataGenerator.csproj.CopyComplete

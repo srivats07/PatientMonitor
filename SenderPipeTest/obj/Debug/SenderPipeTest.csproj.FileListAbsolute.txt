@@ -12,3 +12,5 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\obj\Debug\SenderPipe
 C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\obj\Debug\SenderPipeTest.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\obj\Debug\SenderPipeTest.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\obj\Debug\SenderPipeTest.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\SenderPipeTest\bin\Debug\Newtonsoft.Json.xml

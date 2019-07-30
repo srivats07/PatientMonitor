@@ -12,3 +12,6 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\obj\Debug\CheckP
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\obj\Debug\CheckParameterTest.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\obj\Debug\CheckParameterTest.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\obj\Debug\CheckParameterTest.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.exe.config

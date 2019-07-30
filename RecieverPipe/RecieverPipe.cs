@@ -5,17 +5,18 @@ using System.IO;
 using System.IO.Pipes;
 using System.Net.Mime;
 using System.Reflection;
+using Newtonsoft.Json.Linq;
 
 namespace RecieverPipe
 {
-    class Program
+    class RecieverPipe
     {
         static void Main(string[] args)
         {
             string path = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) + @"\SenderPipe\bin\Debug\SenderPipe.exe";
 
             var result = new List<string>();
-
+            
             // Create separate process
             var anotherProcess = new Process
             {

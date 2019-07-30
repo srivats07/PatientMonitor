@@ -19,3 +19,6 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csprojA
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CopyComplete

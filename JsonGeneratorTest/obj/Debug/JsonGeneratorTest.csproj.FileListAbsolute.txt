@@ -12,3 +12,5 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGen
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.xml

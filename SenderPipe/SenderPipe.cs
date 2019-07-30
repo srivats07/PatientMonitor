@@ -4,10 +4,12 @@ using System.IO;
 using System.IO.Pipes;
 using System.Text;
 using JsonGenerator;
+using DataGenerator;
+using Newtonsoft.Json.Linq;
 
 namespace SenderPipe
 {
-    class Program
+    class SenderPipe
     {
         static void Main(string[] args)
         {
@@ -53,16 +55,20 @@ namespace SenderPipe
                 sw.WriteLine("SYNC");
                 pipeWrite.WaitForPipeDrain();
 
-                StringBuilder content = new StringBuilder(100);
+                
+                JObject jsonObject = new JObject();
 
-                Generator generator = new Generator();
-
-
-                content = generator.FileHandler();
-
-                sw.WriteLine(content);
+                DataGenerator_MockarooAPI generator=new DataGenerator_MockarooAPI();
 
 
+                jsonObject=generator.RandomDataGenerator();
+                //content = generator.FileHandler();
+                foreach (var vars in jsonObject)
+                {
+
+                    sw.WriteLine(vars.Value.ToString());
+                }
+               
                 sw.WriteLine("END");
             }
         }
