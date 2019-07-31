@@ -18,46 +18,62 @@ using Newtonsoft.Json;
 
 namespace DataGenerator
 {
-    class DataGenerator_MockarooAPI
+    public class Patient
+    {
+        public string pat_id;
+        public string pat_spo2;
+        public string pat_temp;
+        public string pat_pulse;
+    }
+    public class DataGenerator_MockarooAPI
     {
         public static string b;
         static void Main(string[] args)
         {
-
-            JObject data = RandomDataGenerator();
-
-
+            DataGenerator_MockarooAPI generator=new DataGenerator_MockarooAPI();
+            JObject data = generator.RandomDataGenerator();
+            
+            foreach (var vars in data)
+            {
+                Console.WriteLine(vars.Value);
+            }
 
         }
 
-        private static JObject RandomDataGenerator()
+        
+
+        public JObject RandomDataGenerator()
         {
-            StreamReader sr = new StreamReader(@"C:\Users\320052122\Downloads\patient_data.csv");
+            StreamReader sr = new StreamReader(@"C:\Users\320067390\Downloads\patient_data.csv");
+            var dictionary = new Dictionary<int, string>();
             string line;
+            int counter = 0;
             JObject o = new JObject();
             while ((line = sr.ReadLine()) != null)
             {
                 //Console.WriteLine(line);
                 string[] csv = line.Split(',');
-                var dictionary = new Dictionary<string, string>();
-                dictionary.Add("PatientID", csv[0]);
-                dictionary.Add("Temperature", csv[1]);
-                dictionary.Add("SPO2", csv[2]);
-                dictionary.Add("PulseRate", csv[3]);
+                
+                dictionary.Add(counter++, csv[0]);
+                dictionary.Add(counter++, csv[1]);
+                dictionary.Add(counter++, csv[2]);
+                dictionary.Add(counter++, csv[3]);
 
 
 
-                string jsons = JsonConvert.SerializeObject(dictionary);
-                // converting into json object used for piping
-                o = JObject.Parse(jsons);
-                foreach (var E in o)
-                {
-                    Console.WriteLine(E.Value);
-                }
+                
                 //Console.WriteLine("Patient Details: {0}", jsons);
 
 
             }
+            string jsons = JsonConvert.SerializeObject(dictionary);
+            // converting into json object used for piping
+            o = JObject.Parse(jsons);
+            foreach (var E in o)
+            {
+                Console.WriteLine(E.Value);
+            }
+
             ////var a = RandomFileGenerator();
             ////Console.WriteLine("The row no. is {0} ", a);
             //int a = 88;
@@ -99,4 +115,6 @@ namespace DataGenerator
             return a;
         }
     }
+
+    
 }

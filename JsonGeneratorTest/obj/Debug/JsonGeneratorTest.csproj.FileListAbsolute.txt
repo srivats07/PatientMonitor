@@ -12,6 +12,7 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGen
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.pdb
+<<<<<<< HEAD
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -28,3 +29,7 @@ C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGenera
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.csproj.CopyComplete
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.dll
 C:\Users\320052122\Patient\PatientMonitor\JsonGeneratorTest\obj\Debug\JsonGeneratorTest.pdb
+=======
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.xml
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903

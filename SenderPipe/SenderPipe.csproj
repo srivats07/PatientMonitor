@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="SenderPipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +54,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataGenerator\DataGenerator.csproj">
+      <Project>{c16c9ed7-5130-40c7-8b1c-27f4c1106957}</Project>
+      <Name>DataGenerator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JsonGenerator\JsonGenerator.csproj">
       <Project>{412eee25-98fa-445a-9606-0c83beb75341}</Project>
       <Name>JsonGenerator</Name>

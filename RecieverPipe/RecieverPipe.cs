@@ -9,13 +9,18 @@ using Newtonsoft.Json.Linq;
 
 namespace RecieverPipe
 {
+<<<<<<< HEAD:RecieverPipe/Program.cs
     public class Program
+=======
+    class RecieverPipe
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:RecieverPipe/RecieverPipe.cs
     {
         static void Main(string[] args)
         {
             JArrayCreator();
         }
 
+<<<<<<< HEAD:RecieverPipe/Program.cs
         public static JArray JArrayCreator()
         {
             string path =
@@ -23,6 +28,10 @@ namespace RecieverPipe
                 @"\SenderPipe\bin\Debug\SenderPipe.exe";
 
             JArray result = new JArray();
+=======
+            var result = new List<string>();
+            
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:RecieverPipe/RecieverPipe.cs
             // Create separate process
             var anotherProcess = new Process
             {

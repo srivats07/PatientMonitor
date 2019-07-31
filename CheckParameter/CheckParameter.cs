@@ -9,13 +9,14 @@ using Newtonsoft.Json.Linq;
 using RecieverPipe;
 namespace Alert
 {
-    class CheckParameter
+    public class CheckParameter
     {
         public static bool abnormalTemp;
         public static bool abnormalSpo2;
         public static bool abnormalPR;
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
 
             JArray j = Program.JArrayCreator();
@@ -74,6 +75,16 @@ namespace Alert
             //    Console.WriteLine(temp1);
 
             //}
+=======
+            string b = "04-3522593,98,83,110";
+            string[] values = TakeInput(b);
+            Console.WriteLine(values[0]);
+            Console.WriteLine(values[1]);
+            Console.WriteLine(values[2]);
+            Console.WriteLine(values[3]);
+            CheckParameter checkOb=new CheckParameter();
+            checkOb.ValueCheck(values);
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903
 
         }
 
@@ -104,30 +115,33 @@ namespace Alert
             }
         }
 
-        private static void ValueCheck(string[] values)
+        public Boolean[] ValueCheck(string[] values)
         {
             //Checking Temperature Value
             float temp = float.Parse(values[1]);
             int spo2 = Int32.Parse(values[2]);
             int pulseRate = Int32.Parse(values[3]);
-
+            Boolean[] result = new bool[] {true,true,true }; 
 
             if (temp > 99 || temp < 97)
             {
                 abnormalTemp = true;
+                result[1] = false;
             }
 
             if (spo2 < 91)
             {
                 abnormalSpo2 = true;
+                result[0] = false;
             }
 
             if (pulseRate > 220 || pulseRate < 40)
             {
                 abnormalPR = true;
+                result[2] = false;
             }
-            SendAlert(abnormalTemp, abnormalSpo2, abnormalPR);
-
+            //SendAlert(abnormalTemp, abnormalSpo2, abnormalPR);
+            return result;
         }
 
 

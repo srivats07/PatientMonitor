@@ -15,6 +15,7 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\obj\Debug\Reciever
 C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.pdb
+<<<<<<< HEAD
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -37,3 +38,7 @@ C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPip
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.csproj.CopyComplete
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.dll
 C:\Users\320052122\Patient\PatientMonitor\RecieverPipeTest\obj\Debug\RecieverPipeTest.pdb
+=======
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320067390\P_Monitor2\PatientMonitor\RecieverPipeTest\bin\Debug\Newtonsoft.Json.xml
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903
