@@ -7,7 +7,7 @@ using PatientMonitor;
 
 namespace Alerting
 {
-    class Program
+    class Alerting
     {
         static void Main(string[] args)
         {
