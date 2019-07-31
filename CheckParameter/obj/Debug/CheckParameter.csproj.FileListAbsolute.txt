@@ -21,3 +21,6 @@ C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParamete
 C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CopyComplete
 C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.exe
 C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe.config

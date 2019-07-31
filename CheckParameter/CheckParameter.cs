@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using RecieverPipe;
 namespace Alert
 {
     class CheckParameter
@@ -14,13 +16,64 @@ namespace Alert
         public static bool abnormalPR;
         static void Main(string[] args)
         {
-            string b = "04-3522593,98,83,110";
-            string[] values = TakeInput(b);
-            Console.WriteLine(values[0]);
-            Console.WriteLine(values[1]);
-            Console.WriteLine(values[2]);
-            Console.WriteLine(values[3]);
-            ValueCheck(values);
+
+
+            JArray j = Program.JArrayCreator();
+            
+            var json = j.ToString();
+            //foreach (var h in j)
+            //{
+            //    Console.WriteLine(h);
+            //}
+            
+            string temp1=null;
+            for (int i = 0; i < json.Length; i++)
+            {
+                temp1 = json.Replace('"', ' ').Replace("{", "").Replace("}", "").Replace("[", "").Replace("]", "").Replace("PatientID =","").Replace("Temperature =", "").Replace("PulseRate =", "").Replace("SPO2 =", "");
+            }
+            var s = temp1.Split('\n');
+            Console.WriteLine("0000000000000000");
+            //for (int i = ; i < UPPER; i++)
+            //{
+                
+            //}
+            Console.WriteLine("--------------------");
+            Console.WriteLine(s[0]);
+            Console.WriteLine(s[1]);
+            Console.WriteLine(s[3]);
+
+            for (int i = 0; i < UPPER; i++)
+            {
+                
+            }
+            var value[] = s[i].Split(',');
+            //JToken jj = JToken.Parse(json);
+            //JObject jjj = jj["PatientID"].Value<JObject>();
+            //List<string> keys = jjj.Properties().Select(p => p.Name).ToList();
+
+            //foreach (var key in keys)
+            //{
+            //    Console.WriteLine(key);
+            //}
+            //string[] str =new string[100];
+
+            //    str = json.Split(',');
+
+
+
+            //Console.WriteLine(str);
+            //char[] ch = { '{', '}','[',']'};
+            //String [] str = new string[100];
+            //string str = j.ToString().Trim(ch);
+            //Console.WriteLine(str);
+            //foreach (var v in j)
+            //{
+
+            //    var temp1 =v.ToString().Replace(',',' ').Replace('"',' ').Replace('{',' ').Replace('}',' ').Replace('[',' ').Replace(']',' ');
+
+            //    Console.WriteLine(temp1);
+
+            //}
 
         }
 

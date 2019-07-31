@@ -4,6 +4,7 @@ using System.IO;
 using System.IO.Pipes;
 using System.Text;
 using JsonGenerator;
+using Newtonsoft.Json.Linq;
 
 namespace SenderPipe
 {
@@ -57,10 +58,10 @@ namespace SenderPipe
 
                 Generator generator = new Generator();
 
+                JArray j = generator.JsonHandler();
+                
 
-                content = generator.FileHandler();
-
-                sw.WriteLine(content);
+                sw.WriteLine(j);
 
 
                 sw.WriteLine("END");

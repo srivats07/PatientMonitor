@@ -53,5 +53,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGenerator\DataGenerator.csproj">
+      <Project>{c16c9ed7-5130-40c7-8b1c-27f4c1106957}</Project>
+      <Name>DataGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
