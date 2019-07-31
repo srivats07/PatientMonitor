@@ -4,7 +4,10 @@ using System.IO;
 using System.IO.Pipes;
 using System.Text;
 using JsonGenerator;
+<<<<<<< HEAD:SenderPipe/Program.cs
+=======
 using DataGenerator;
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:SenderPipe/SenderPipe.cs
 using Newtonsoft.Json.Linq;
 
 namespace SenderPipe
@@ -60,11 +63,18 @@ namespace SenderPipe
 
                 DataGenerator_MockarooAPI generator=new DataGenerator_MockarooAPI();
 
+                JArray j = generator.JsonHandler();
+                
 
+<<<<<<< HEAD:SenderPipe/Program.cs
+                sw.WriteLine(j);
+
+=======
                 jsonObject=generator.RandomDataGenerator();
                 //content = generator.FileHandler();
                 foreach (var vars in jsonObject)
                 {
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:SenderPipe/SenderPipe.cs
 
                     sw.WriteLine(vars.Value.ToString());
                 }

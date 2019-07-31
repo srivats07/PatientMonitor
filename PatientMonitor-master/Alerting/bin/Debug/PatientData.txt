@@ -1,0 +1,16 @@
+{ "PatientID": "34-6109034", "Temperature": 97, "PulseRate": 82, "SPO2": 80 }
+{ "PatientID": "08-3989659", "Temperature": 97, "PulseRate": 113, "SPO2": 108 }
+
+{ "PatientID": "80-9974049", "Temperature": 84, "PulseRate": 106, "SPO2": 89 }
+
+{ "PatientID": "77-6007025", "Temperature": 88, "PulseRate": 104, "SPO2": 103 }
+
+{ "PatientID": "75-2282331", "Temperature": 107, "PulseRate": 60, "SPO2": 106 }
+
+{ "PatientID": "49-8969963", "Temperature": 87, "PulseRate": 68, "SPO2": 88 }
+
+{ "PatientID": "68-8960213", "Temperature": 90, "PulseRate": 93, "SPO2": 99 }
+
+{ "PatientID": "23-1511963", "Temperature": 109, "PulseRate": 100, "SPO2": 108 }
+
+{ "PatientID": "14-1521717", "Temperature": 86, "PulseRate": 65, "SPO2": 80 }

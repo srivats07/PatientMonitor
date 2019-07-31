@@ -9,7 +9,15 @@ using Newtonsoft.Json.Linq;
 
 namespace RecieverPipe
 {
+<<<<<<< HEAD
     public class RecieverClass
+=======
+<<<<<<< HEAD:RecieverPipe/Program.cs
+    public class Program
+=======
+    class RecieverPipe
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:RecieverPipe/RecieverPipe.cs
+>>>>>>> f289580c4ce6c5af755aa49b9051a5d259744240
     {
         static List<string> result = new List<string>();
 
@@ -19,10 +27,25 @@ namespace RecieverPipe
         }
         static void Main(string[] args)
         {
-            string path = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) + @"\SenderPipe\bin\Debug\SenderPipe.exe";
+            JArrayCreator();
+        }
 
+<<<<<<< HEAD:RecieverPipe/Program.cs
+        public static JArray JArrayCreator()
+        {
+            string path =
+                Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) +
+                @"\SenderPipe\bin\Debug\SenderPipe.exe";
+
+<<<<<<< HEAD
             
+=======
+            JArray result = new JArray();
+=======
+            var result = new List<string>();
+>>>>>>> f289580c4ce6c5af755aa49b9051a5d259744240
             
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903:RecieverPipe/RecieverPipe.cs
             // Create separate process
             var anotherProcess = new Process
             {
@@ -38,17 +61,16 @@ namespace RecieverPipe
             using (var pipeRead = new AnonymousPipeServerStream(PipeDirection.In, HandleInheritability.Inheritable))
             using (var pipeWrite = new AnonymousPipeServerStream(PipeDirection.Out, HandleInheritability.Inheritable))
             {
-                if (pipeRead == null && pipeWrite == null) return;
+                //if (pipeRead == null && pipeWrite == null)
+                //    //return;
 
                 // Pass to the other process handles to the 2 pipes
 
 
-                anotherProcess.StartInfo.Arguments = pipeRead.GetClientHandleAsString() + " " + pipeWrite.GetClientHandleAsString();
+                anotherProcess.StartInfo.Arguments =
+                    pipeRead.GetClientHandleAsString() + " " + pipeWrite.GetClientHandleAsString();
 
                 anotherProcess.Start();
-
-
-
 
 
                 pipeRead.DisposeLocalCopyOfClientHandle();
@@ -72,18 +94,19 @@ namespace RecieverPipe
                 }
 
                 //if (result.Count > 0)
-                for (int i = 0; i < result.Count; i++)
-                {
-                    Console.WriteLine(result[i]);
-                }
+                //for (int i = 0; i < result.Count; i++)
+                //{
+                //    Console.WriteLine(result[i]);
+                //}
 
 
-
-                Console.ReadLine();
+                // Console.ReadLine();
             }
+
+            return result;
         }
 
-        private static void reciever(AnonymousPipeServerStream pipeRead, List<string> result)
+        public static void reciever(AnonymousPipeServerStream pipeRead, JArray result)
         {
             // Get message from the other process
             using (var sr = new StreamReader(pipeRead))
@@ -106,7 +129,7 @@ namespace RecieverPipe
             }
         }
 
-        private static void sender(AnonymousPipeServerStream pipeWrite)
+        public static void sender(AnonymousPipeServerStream pipeWrite)
         {
             using (var sw = new StreamWriter(pipeWrite))
             {

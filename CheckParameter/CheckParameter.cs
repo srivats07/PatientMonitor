@@ -6,9 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+<<<<<<< HEAD
 using RecieverPipe;
 
 
+=======
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using RecieverPipe;
+>>>>>>> f289580c4ce6c5af755aa49b9051a5d259744240
 namespace Alert
 {
     public class CheckParameter
@@ -18,6 +24,7 @@ namespace Alert
         public static bool abnormalPR;
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             //string b = "04-3522593,98,83,110";
             //string[] values = TakeInput(b);
             //string[] values=new string[]{null,null,null,null};
@@ -54,6 +61,77 @@ namespace Alert
 //            Console.WriteLine(values[3]);
 //            CheckParameter checkOb=new CheckParameter();
 //            checkOb.AlertIsNeeded(values);
+=======
+<<<<<<< HEAD
+
+
+            JArray j = Program.JArrayCreator();
+            
+            var json = j.ToString();
+            //foreach (var h in j)
+            //{
+            //    Console.WriteLine(h);
+            //}
+            
+            string temp1=null;
+            for (int i = 0; i < json.Length; i++)
+            {
+                temp1 = json.Replace('"', ' ').Replace("{", "").Replace("}", "").Replace("[", "").Replace("]", "").Replace("PatientID =","").Replace("Temperature =", "").Replace("PulseRate =", "").Replace("SPO2 =", "");
+            }
+            var s = temp1.Split('\n');
+            Console.WriteLine("0000000000000000");
+            //for (int i = ; i < UPPER; i++)
+            //{
+                
+            //}
+            Console.WriteLine("--------------------");
+            Console.WriteLine(s[0]);
+            Console.WriteLine(s[1]);
+            Console.WriteLine(s[3]);
+
+            for (int i = 0; i < UPPER; i++)
+            {
+                
+            }
+            var value[] = s[i].Split(',');
+            //JToken jj = JToken.Parse(json);
+            //JObject jjj = jj["PatientID"].Value<JObject>();
+            //List<string> keys = jjj.Properties().Select(p => p.Name).ToList();
+
+            //foreach (var key in keys)
+            //{
+            //    Console.WriteLine(key);
+            //}
+            //string[] str =new string[100];
+
+            //    str = json.Split(',');
+
+
+
+            //Console.WriteLine(str);
+            //char[] ch = { '{', '}','[',']'};
+            //String [] str = new string[100];
+            //string str = j.ToString().Trim(ch);
+            //Console.WriteLine(str);
+            //foreach (var v in j)
+            //{
+
+            //    var temp1 =v.ToString().Replace(',',' ').Replace('"',' ').Replace('{',' ').Replace('}',' ').Replace('[',' ').Replace(']',' ');
+
+            //    Console.WriteLine(temp1);
+
+            //}
+=======
+            string b = "04-3522593,98,83,110";
+            string[] values = TakeInput(b);
+            Console.WriteLine(values[0]);
+            Console.WriteLine(values[1]);
+            Console.WriteLine(values[2]);
+            Console.WriteLine(values[3]);
+            CheckParameter checkOb=new CheckParameter();
+            checkOb.ValueCheck(values);
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903
+>>>>>>> f289580c4ce6c5af755aa49b9051a5d259744240
 
         }
 

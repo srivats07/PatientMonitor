@@ -1,0 +1,9 @@
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\bin\Release\PatientMonitor.dll
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\bin\Release\PatientMonitor.pdb
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\bin\Release\Newtonsoft.Json.dll
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\bin\Release\Newtonsoft.Json.xml
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\obj\Release\PatientMonitor.csprojAssemblyReference.cache
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\obj\Release\PatientMonitor.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\obj\Release\PatientMonitor.csproj.CopyComplete
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\obj\Release\PatientMonitor.dll
+C:\Users\320052122\Desktop\PatientMonitor-master\PatientMonitor\obj\Release\PatientMonitor.pdb

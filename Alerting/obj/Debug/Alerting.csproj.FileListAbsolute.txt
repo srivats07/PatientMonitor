@@ -19,6 +19,19 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csprojA
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.pdb
+<<<<<<< HEAD
+C:\Users\320052122\Patient\PatientMonitor\Alerting\bin\Debug\Alerting.exe.config
+C:\Users\320052122\Patient\PatientMonitor\Alerting\bin\Debug\Alerting.exe
+C:\Users\320052122\Patient\PatientMonitor\Alerting\bin\Debug\Alerting.pdb
+C:\Users\320052122\Patient\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320052122\Patient\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320052122\Patient\PatientMonitor\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
+C:\Users\320052122\Patient\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Patient\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CopyComplete
+C:\Users\320052122\Patient\PatientMonitor\Alerting\obj\Debug\Alerting.exe
+C:\Users\320052122\Patient\PatientMonitor\Alerting\obj\Debug\Alerting.pdb
+=======
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.dll
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\bin\Debug\Newtonsoft.Json.xml
 C:\Users\320067390\P_Monitor2\PatientMonitor\Alerting\obj\Debug\Alerting.csproj.CopyComplete
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903

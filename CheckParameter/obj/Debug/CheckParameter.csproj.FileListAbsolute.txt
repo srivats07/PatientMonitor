@@ -7,7 +7,26 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParam
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CopyComplete
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.pdb
+<<<<<<< HEAD
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csprojAssemblyReference.cache
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.pdb
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe.config
+=======
+<<<<<<< HEAD
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.exe.config
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\CheckParameter.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csprojAssemblyReference.cache
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.csproj.CopyComplete
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\obj\Debug\CheckParameter.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.pdb
+C:\Users\320052122\Patient\PatientMonitor\CheckParameter\bin\Debug\RecieverPipe.exe.config
+=======
+>>>>>>> 0599f1cd6a37b2f82dfc7d0f4373a01a9934a903
+>>>>>>> f289580c4ce6c5af755aa49b9051a5d259744240
