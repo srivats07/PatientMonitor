@@ -127,28 +127,7 @@ namespace PatientMonitor
         {
             string ln;
             
-            //using (StreamReader file = new StreamReader(jsonFile))
-            //{
-            //    while ((ln = file.ReadLine()) != null)
-            //    {
-                    
-            //        Console.WriteLine(ln);
-            //        var jobect = JObject.Parse(ln);
-            //        int i = 0; string[] str = new string[100000];
-            //        foreach (var n in jobect)
-            //        {
-                        
-            //            //Console.WriteLine(n.Value);
-            //            str[i++]= n.Value.ToString();
-                        
-
-            //        }
-            //        checkValue(str);
-                    
-
-            //        Console.WriteLine();
-            //    }
-            //}
+            
 
             while ((ln = Console.ReadLine()) != null)
             {
@@ -156,7 +135,8 @@ namespace PatientMonitor
                 
             var jobect = JObject.Parse(ln);
             Console.WriteLine(jobect);
-                int i = 0; string[] str = new string[100000];
+            int i = 0;
+            string[] str = new string[]{null, null, null, null };
             foreach (var n in jobect)
             {
 
@@ -165,115 +145,41 @@ namespace PatientMonitor
 
 
             }
-            checkValue(str);
+            AlertIsNeeded(str);
             
 
 
                 Console.WriteLine();
         }
-        //}
+        
 
-    }
-        //    while
-        //    var json = File.ReadAllText(jsonFile);
-        //    try
-        //    {
-        //        var jObject = JObject.Parse(json);
-        //        string jsonS = JsonConvert.SerializeObject(jObject);
-        //        //Console.WriteLine(jsonS);
+    }   
 
-        //        if (jObject != null)
-        //        {
-        //            JArray experiencesArrary = (JArray)jObject["Patients"];
-        //            if (experiencesArrary != null)
-        //            {
-        //                foreach (var str in experiencesArrary)
-        //                {
-        //                    Console.WriteLine("Patient Id :" + str["PatientID"]);
-        //                    Console.WriteLine("SPO2:" + str["SPO2"].ToString());
-        //                    Console.WriteLine("PulseRate:" + str["PulseRate"].ToString());
-        //                    Console.WriteLine("Temperature:" + str["Temperature"].ToString());
-        //                    checkValue(str);
-        //                    Thread.Sleep(TimeSpan.FromSeconds(4));
-        //                    Console.WriteLine();
-
-
-        //                }
-        //            }
-        //        }
-        //    }
-        //    catch (Exception)
-        //    {
-
-        //        throw;
-        //    }
-        //}
-
-        private static void SendAlert(bool temp, bool spo2, bool pr)
+        
+        public Boolean[] AlertIsNeeded(string[] str)
         {
-            if (temp)
+            Boolean[] result=new bool[] { true, true, true };
+            if (Convert.ToInt32(str[1]) < 91 || Convert.ToInt32(str[1]) > 100)
             {
-                Console.WriteLine("Abnormal Temperature value");
-              
-            }
-
-            if (spo2)
-            {
-                Console.WriteLine("Abnormal SPO2 value");
-                
-            }
-
-            if (pr)
-            {
-                Console.WriteLine("Abnormal Pulse Rate is detected");
-                
-            }
-        }
-
-        private static void ValueCheck(string[] values)
-        {
-            //Checking Temperature Value
-            float temp = float.Parse(values[1]);
-            int spo2 = Int32.Parse(values[2]);
-            int pulseRate = Int32.Parse(values[3]);
-
-
-            if (temp > 99 || temp < 97)
-            {
-                abnormalTemp = true;
-            }
-
-            if (spo2 < 91)
-            {
-                abnormalSpo2 = true;
-            }
-
-            if (pulseRate > 220 || pulseRate < 40)
-            {
-                abnormalPR = true;
-            }
-            SendAlert(abnormalTemp, abnormalSpo2, abnormalPR);
-
-        }
-        public void checkValue(string[]str)
-        {
-            if (Convert.ToInt32(str[1]) < 91)
-            {
-
                 Alerter("SPO2-->" + Convert.ToString(str[1]));
+                result[0] = false;
             }
 
-            if (Convert.ToInt32(str[2]) < 40 || Convert.ToInt32(str[2]) > 220)
+            if (Convert.ToInt32(str[2]) < 60 || Convert.ToInt32(str[2]) > 100)
             {
 
                 Alerter("PulseRate-->" + Convert.ToString(str[2]));
+                result[2] = false;
             }
 
-            if (Convert.ToInt32(str[3]) < 97 || Convert.ToInt32(str[3]) > 99)
+            if (Convert.ToDouble(str[3]) < 97.0 || Convert.ToDouble(str[3]) > 99.0)
             {
 
                 Alerter("Temperature-->" + Convert.ToString(str[3]));
+                result[1] = false;
             }
+
+            return result;
         }
 
         private void Alerter(string alert)

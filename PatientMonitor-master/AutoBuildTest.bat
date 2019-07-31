@@ -6,7 +6,7 @@ set "BAT_PATH=%~dp0"
 @echo off
 
 
-call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\VsDevCmd.bat"
+call "<C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\VsDevCmd.bat>"
 
 echo %BAT_PATH%
 
@@ -29,11 +29,10 @@ To Make it to work open BranchConfiguration.json then set the value of "name": "
 :: param3 =     Infra Compiling: default: build, Range: nobuild OR build
 :: param4 =     Platform: default: x64 or Win32, Range: Win32 OR x64
 
-devenv "%BAT_PATH%\Alerting.sln" /build Release 
+devenv "%BAT_PATH%\Alerting.sln" /build Debug 
 
 echo.
 
 
-pushd %BAT_PATH%Alerting\Alerting\Bin\Release
-
-start %BAT_PATH%\Alerting\Bin\Release\Alerting.exe
+pushd %BAT_PATH%Alerting\Alerting\Bin\Debug
+type %BAT_PATH%\Alerting\Bin\Debug\MOCK_DATA.json | %BAT_PATH%\Alerting\Bin\Debug\Alerting.exe 
