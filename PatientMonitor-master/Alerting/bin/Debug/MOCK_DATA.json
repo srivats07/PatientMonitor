@@ -1,31 +1,100 @@
-{ "PatientID": "34-6109034", "Temperature": 97, "PulseRate": 82, "SPO2": 80 }
-{ "PatientID": "08-3989659", "Temperature": 97, "PulseRate": 113, "SPO2": 108 }
-{ "PatientID": "80-9974049", "Temperature": 84, "PulseRate": 106, "SPO2": 89 }
-{ "PatientID": "77-6007025", "Temperature": 88, "PulseRate": 104, "SPO2": 103 }
-{ "PatientID": "75-2282331", "Temperature": 107, "PulseRate": 60, "SPO2": 106 }
-{ "PatientID": "49-8969963", "Temperature": 87, "PulseRate": 68, "SPO2": 88 }
-{ "PatientID": "68-8960213", "Temperature": 90, "PulseRate": 93, "SPO2": 99 }
-{ "PatientID": "23-1511963", "Temperature": 109, "PulseRate": 100, "SPO2": 108 }
-{ "PatientID": "14-1521717", "Temperature": 86, "PulseRate": 65, "SPO2": 80 }
-{ "PatientID": "85-6560141", "Temperature": 98, "PulseRate": 109, "SPO2": 95 }
-{ "PatientID": "89-3360115", "Temperature": 87, "PulseRate": 69, "SPO2": 106 }
-{ "PatientID": "45-7265052", "Temperature": 103, "PulseRate": 90, "SPO2": 100 }
-{ "PatientID": "71-4345918", "Temperature": 97, "PulseRate": 76, "SPO2": 80 }
-{ "PatientID": "74-8538888", "Temperature": 81, "PulseRate": 80, "SPO2": 85 }
-{ "PatientID": "01-9052849", "Temperature": 83, "PulseRate": 68, "SPO2": 91 }
-{ "PatientID": "72-1754978", "Temperature": 103, "PulseRate": 73, "SPO2": 83 }
-{ "PatientID": "77-7864811", "Temperature": 85, "PulseRate": 63, "SPO2": 109 }
-{ "PatientID": "73-7871774", "Temperature": 95, "PulseRate": 105, "SPO2": 91 }
-{ "PatientID": "38-7725169", "Temperature": 92, "PulseRate": 77, "SPO2": 88 }
-{ "PatientID": "56-8576878", "Temperature": 97, "PulseRate": 75, "SPO2": 103 }
-{ "PatientID": "10-4379388", "Temperature": 85, "PulseRate": 66, "SPO2": 88 }
-{ "PatientID": "32-4834228", "Temperature": 98, "PulseRate": 77, "SPO2": 95 }
-{ "PatientID": "39-4382702", "Temperature": 83, "PulseRate": 81, "SPO2": 91 }
-{ "PatientID": "65-7259072", "Temperature": 80, "PulseRate": 84, "SPO2": 88 }
-{ "PatientID": "62-5225546", "Temperature": 91, "PulseRate": 86, "SPO2": 103 }
-{ "PatientID": "18-8514118", "Temperature": 80, "PulseRate": 101, "SPO2": 88 }
-{ "PatientID": "41-6766383", "Temperature": 94, "PulseRate": 96, "SPO2": 82 }
-{ "PatientID": "03-0206436", "Temperature": 88, "PulseRate": 117, "SPO2": 107 }
-{ "PatientID": "17-7637816", "Temperature": 91, "PulseRate": 91, "SPO2": 93 }
-{ "PatientID": "85-1876227", "Temperature": 97, "PulseRate": 91, "SPO2": 90 }
-{ "PatientID": "26-5318131", "Temperature": 83, "PulseRate": 98, "SPO2": 93 }
+{"Patient Id":"11-5820164","Patient SpO2":95,"Patient Pulse rate":148,"Patient Temperature":99.48}
+{"Patient Id":"84-3473128","Patient SpO2":91,"Patient Pulse rate":183,"Patient Temperature":97.59}
+{"Patient Id":"63-1808564","Patient SpO2":99,"Patient Pulse rate":87,"Patient Temperature":98.61}
+{"Patient Id":"86-0092289","Patient SpO2":87,"Patient Pulse rate":132,"Patient Temperature":93.05}
+{"Patient Id":"01-9044971","Patient SpO2":98,"Patient Pulse rate":52,"Patient Temperature":96.3}
+{"Patient Id":"06-7378750","Patient SpO2":94,"Patient Pulse rate":30,"Patient Temperature":96.68}
+{"Patient Id":"69-6888602","Patient SpO2":93,"Patient Pulse rate":68,"Patient Temperature":98.2}
+{"Patient Id":"92-6098374","Patient SpO2":94,"Patient Pulse rate":195,"Patient Temperature":99.92}
+{"Patient Id":"97-9752885","Patient SpO2":89,"Patient Pulse rate":137,"Patient Temperature":98.56}
+{"Patient Id":"84-9998399","Patient SpO2":94,"Patient Pulse rate":76,"Patient Temperature":95.66}
+{"Patient Id":"24-6598500","Patient SpO2":86,"Patient Pulse rate":78,"Patient Temperature":96.17}
+{"Patient Id":"88-5260806","Patient SpO2":96,"Patient Pulse rate":35,"Patient Temperature":93.74}
+{"Patient Id":"00-9992851","Patient SpO2":97,"Patient Pulse rate":178,"Patient Temperature":95.06}
+{"Patient Id":"31-7910368","Patient SpO2":95,"Patient Pulse rate":198,"Patient Temperature":103.45}
+{"Patient Id":"82-8000387","Patient SpO2":87,"Patient Pulse rate":177,"Patient Temperature":100.97}
+{"Patient Id":"55-2257883","Patient SpO2":87,"Patient Pulse rate":83,"Patient Temperature":95.39}
+{"Patient Id":"40-2960723","Patient SpO2":96,"Patient Pulse rate":61,"Patient Temperature":100.73}
+{"Patient Id":"33-1398564","Patient SpO2":100,"Patient Pulse rate":81,"Patient Temperature":96.16}
+{"Patient Id":"58-3837112","Patient SpO2":89,"Patient Pulse rate":126,"Patient Temperature":98.3}
+{"Patient Id":"71-9273605","Patient SpO2":100,"Patient Pulse rate":130,"Patient Temperature":94.89}
+{"Patient Id":"27-4451452","Patient SpO2":92,"Patient Pulse rate":64,"Patient Temperature":100.89}
+{"Patient Id":"65-8825890","Patient SpO2":100,"Patient Pulse rate":98,"Patient Temperature":96.64}
+{"Patient Id":"27-4036821","Patient SpO2":90,"Patient Pulse rate":236,"Patient Temperature":93.23}
+{"Patient Id":"08-1136113","Patient SpO2":98,"Patient Pulse rate":198,"Patient Temperature":102.71}
+{"Patient Id":"63-9543504","Patient SpO2":90,"Patient Pulse rate":134,"Patient Temperature":93.08}
+{"Patient Id":"23-0981603","Patient SpO2":98,"Patient Pulse rate":69,"Patient Temperature":98.74}
+{"Patient Id":"99-1359542","Patient SpO2":89,"Patient Pulse rate":180,"Patient Temperature":103.63}
+{"Patient Id":"69-0089841","Patient SpO2":88,"Patient Pulse rate":99,"Patient Temperature":100.15}
+{"Patient Id":"20-6136786","Patient SpO2":86,"Patient Pulse rate":202,"Patient Temperature":94.89}
+{"Patient Id":"11-1621158","Patient SpO2":87,"Patient Pulse rate":189,"Patient Temperature":100.32}
+{"Patient Id":"96-7851707","Patient SpO2":99,"Patient Pulse rate":123,"Patient Temperature":94.22}
+{"Patient Id":"81-6486334","Patient SpO2":89,"Patient Pulse rate":142,"Patient Temperature":97.34}
+{"Patient Id":"77-3048333","Patient SpO2":97,"Patient Pulse rate":70,"Patient Temperature":100.61}
+{"Patient Id":"29-9316161","Patient SpO2":94,"Patient Pulse rate":66,"Patient Temperature":97.54}
+{"Patient Id":"99-5617509","Patient SpO2":96,"Patient Pulse rate":127,"Patient Temperature":94.23}
+{"Patient Id":"52-8388594","Patient SpO2":93,"Patient Pulse rate":238,"Patient Temperature":94.16}
+{"Patient Id":"01-6293501","Patient SpO2":98,"Patient Pulse rate":202,"Patient Temperature":98.67}
+{"Patient Id":"78-7206922","Patient SpO2":89,"Patient Pulse rate":226,"Patient Temperature":98.95}
+{"Patient Id":"21-3079826","Patient SpO2":96,"Patient Pulse rate":96,"Patient Temperature":98.31}
+{"Patient Id":"34-0649119","Patient SpO2":94,"Patient Pulse rate":47,"Patient Temperature":99.55}
+{"Patient Id":"97-1051016","Patient SpO2":97,"Patient Pulse rate":41,"Patient Temperature":100.59}
+{"Patient Id":"86-0186979","Patient SpO2":94,"Patient Pulse rate":87,"Patient Temperature":95.67}
+{"Patient Id":"12-1596736","Patient SpO2":87,"Patient Pulse rate":41,"Patient Temperature":94.73}
+{"Patient Id":"99-0995724","Patient SpO2":85,"Patient Pulse rate":175,"Patient Temperature":102.56}
+{"Patient Id":"02-5282254","Patient SpO2":96,"Patient Pulse rate":83,"Patient Temperature":94.49}
+{"Patient Id":"32-9016626","Patient SpO2":88,"Patient Pulse rate":187,"Patient Temperature":99.31}
+{"Patient Id":"23-6117987","Patient SpO2":88,"Patient Pulse rate":130,"Patient Temperature":97.65}
+{"Patient Id":"41-9009028","Patient SpO2":85,"Patient Pulse rate":194,"Patient Temperature":100.35}
+{"Patient Id":"99-7141004","Patient SpO2":90,"Patient Pulse rate":32,"Patient Temperature":96.24}
+{"Patient Id":"31-1418646","Patient SpO2":89,"Patient Pulse rate":94,"Patient Temperature":100.21}
+{"Patient Id":"49-1213507","Patient SpO2":98,"Patient Pulse rate":213,"Patient Temperature":102.94}
+{"Patient Id":"74-9440015","Patient SpO2":93,"Patient Pulse rate":115,"Patient Temperature":101.12}
+{"Patient Id":"08-5214926","Patient SpO2":93,"Patient Pulse rate":75,"Patient Temperature":102.34}
+{"Patient Id":"42-5116522","Patient SpO2":86,"Patient Pulse rate":161,"Patient Temperature":101.41}
+{"Patient Id":"92-8987131","Patient SpO2":96,"Patient Pulse rate":232,"Patient Temperature":93.05}
+{"Patient Id":"52-0381565","Patient SpO2":98,"Patient Pulse rate":54,"Patient Temperature":95.38}
+{"Patient Id":"38-8962463","Patient SpO2":98,"Patient Pulse rate":151,"Patient Temperature":98.29}
+{"Patient Id":"81-8275648","Patient SpO2":87,"Patient Pulse rate":34,"Patient Temperature":95.23}
+{"Patient Id":"19-3520223","Patient SpO2":100,"Patient Pulse rate":203,"Patient Temperature":97.39}
+{"Patient Id":"93-4178725","Patient SpO2":99,"Patient Pulse rate":116,"Patient Temperature":101.67}
+{"Patient Id":"04-1341636","Patient SpO2":97,"Patient Pulse rate":54,"Patient Temperature":99.05}
+{"Patient Id":"37-3039774","Patient SpO2":93,"Patient Pulse rate":223,"Patient Temperature":101.4}
+{"Patient Id":"74-2482396","Patient SpO2":94,"Patient Pulse rate":100,"Patient Temperature":97.35}
+{"Patient Id":"43-6479509","Patient SpO2":86,"Patient Pulse rate":135,"Patient Temperature":97.51}
+{"Patient Id":"52-1222315","Patient SpO2":90,"Patient Pulse rate":101,"Patient Temperature":103.42}
+{"Patient Id":"77-0995874","Patient SpO2":95,"Patient Pulse rate":163,"Patient Temperature":98.34}
+{"Patient Id":"87-7316584","Patient SpO2":91,"Patient Pulse rate":210,"Patient Temperature":97.82}
+{"Patient Id":"35-3711756","Patient SpO2":98,"Patient Pulse rate":156,"Patient Temperature":98.52}
+{"Patient Id":"06-3545606","Patient SpO2":94,"Patient Pulse rate":83,"Patient Temperature":96.36}
+{"Patient Id":"33-6578168","Patient SpO2":89,"Patient Pulse rate":181,"Patient Temperature":99.77}
+{"Patient Id":"21-5958719","Patient SpO2":94,"Patient Pulse rate":229,"Patient Temperature":104.0}
+{"Patient Id":"32-2224391","Patient SpO2":97,"Patient Pulse rate":36,"Patient Temperature":102.15}
+{"Patient Id":"94-2273652","Patient SpO2":88,"Patient Pulse rate":157,"Patient Temperature":102.73}
+{"Patient Id":"88-7734257","Patient SpO2":86,"Patient Pulse rate":186,"Patient Temperature":98.26}
+{"Patient Id":"81-5990755","Patient SpO2":92,"Patient Pulse rate":164,"Patient Temperature":100.04}
+{"Patient Id":"92-5878499","Patient SpO2":90,"Patient Pulse rate":119,"Patient Temperature":96.42}
+{"Patient Id":"20-5821542","Patient SpO2":88,"Patient Pulse rate":213,"Patient Temperature":101.17}
+{"Patient Id":"46-3274275","Patient SpO2":96,"Patient Pulse rate":135,"Patient Temperature":95.09}
+{"Patient Id":"14-0209833","Patient SpO2":97,"Patient Pulse rate":59,"Patient Temperature":102.37}
+{"Patient Id":"18-8293383","Patient SpO2":96,"Patient Pulse rate":214,"Patient Temperature":93.01}
+{"Patient Id":"18-6922536","Patient SpO2":100,"Patient Pulse rate":221,"Patient Temperature":95.27}
+{"Patient Id":"63-6428388","Patient SpO2":92,"Patient Pulse rate":183,"Patient Temperature":100.8}
+{"Patient Id":"55-1799953","Patient SpO2":98,"Patient Pulse rate":103,"Patient Temperature":98.14}
+{"Patient Id":"41-1946841","Patient SpO2":97,"Patient Pulse rate":121,"Patient Temperature":101.67}
+{"Patient Id":"04-2236745","Patient SpO2":85,"Patient Pulse rate":38,"Patient Temperature":98.53}
+{"Patient Id":"04-1606991","Patient SpO2":87,"Patient Pulse rate":45,"Patient Temperature":97.08}
+{"Patient Id":"63-1498055","Patient SpO2":99,"Patient Pulse rate":151,"Patient Temperature":101.68}
+{"Patient Id":"28-8528148","Patient SpO2":93,"Patient Pulse rate":170,"Patient Temperature":95.39}
+{"Patient Id":"47-1181650","Patient SpO2":89,"Patient Pulse rate":85,"Patient Temperature":98.83}
+{"Patient Id":"32-8710778","Patient SpO2":94,"Patient Pulse rate":125,"Patient Temperature":101.62}
+{"Patient Id":"82-9563553","Patient SpO2":91,"Patient Pulse rate":147,"Patient Temperature":101.29}
+{"Patient Id":"42-1991262","Patient SpO2":93,"Patient Pulse rate":148,"Patient Temperature":103.41}
+{"Patient Id":"92-2189462","Patient SpO2":91,"Patient Pulse rate":143,"Patient Temperature":100.17}
+{"Patient Id":"52-7368011","Patient SpO2":88,"Patient Pulse rate":217,"Patient Temperature":98.56}
+{"Patient Id":"98-6950784","Patient SpO2":97,"Patient Pulse rate":198,"Patient Temperature":101.51}
+{"Patient Id":"27-9690369","Patient SpO2":87,"Patient Pulse rate":82,"Patient Temperature":94.12}
+{"Patient Id":"92-1488721","Patient SpO2":95,"Patient Pulse rate":62,"Patient Temperature":95.89}
+{"Patient Id":"57-9383392","Patient SpO2":96,"Patient Pulse rate":140,"Patient Temperature":94.3}
+{"Patient Id":"39-3019922","Patient SpO2":88,"Patient Pulse rate":194,"Patient Temperature":95.76}
+{"Patient Id":"03-3166995","Patient SpO2":89,"Patient Pulse rate":101,"Patient Temperature":98.57}
