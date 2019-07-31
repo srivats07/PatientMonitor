@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using RecieverPipe;
+
 
 namespace Alert
 {
@@ -14,14 +18,42 @@ namespace Alert
         public static bool abnormalPR;
         static void Main(string[] args)
         {
-            string b = "04-3522593,98,83,110";
-            string[] values = TakeInput(b);
-            Console.WriteLine(values[0]);
-            Console.WriteLine(values[1]);
-            Console.WriteLine(values[2]);
-            Console.WriteLine(values[3]);
-            CheckParameter checkOb=new CheckParameter();
-            checkOb.ValueCheck(values);
+            //string b = "04-3522593,98,83,110";
+            //string[] values = TakeInput(b);
+            //string[] values=new string[]{null,null,null,null};
+            String[] arrStrings=new string[]{};
+            List<string> result=new List<string>();
+            /*string path = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) + @"\RecieverPipe\bin\Debug\RecieverPipe.exe";
+            var anotherProcess = new Process
+            {
+                StartInfo =
+                {
+                    FileName = path,
+                    CreateNoWindow = true,
+                    UseShellExecute = false
+                }
+            };
+
+            anotherProcess.Start();
+*/
+
+
+
+
+            RecieverClass obRec=new RecieverClass();
+            result = obRec.getResult();
+            arrStrings = result.ToArray();
+            Console.WriteLine(arrStrings.Length);
+            for (int i = 0; i < arrStrings.Length; i++)
+            {
+                Console.WriteLine(arrStrings[i]);
+            }
+//            Console.WriteLine(values[0]);
+//            Console.WriteLine(values[1]);
+//            Console.WriteLine(values[2]);
+//            Console.WriteLine(values[3]);
+//            CheckParameter checkOb=new CheckParameter();
+//            checkOb.AlertIsNeeded(values);
 
         }
 
@@ -52,7 +84,7 @@ namespace Alert
             }
         }
 
-        public Boolean[] ValueCheck(string[] values)
+        public Boolean[] AlertIsNeeded(string[] values)
         {
             //Checking Temperature Value
             float temp = float.Parse(values[1]);

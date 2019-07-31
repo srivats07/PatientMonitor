@@ -12,7 +12,7 @@ namespace CheckParameterTest
         {
             Random generator=new Random();
             //double value = generator.Next(0, 300);
-            double value = 101;
+            double value = -1;
             string[] triplet = new string[] {"Tester","","","" };
             
             
@@ -70,7 +70,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = false;
             CheckParameter check=new CheckParameter();
-            result=check.ValueCheck(values);
+            result=check.AlertIsNeeded(values);
             Assert.AreEqual(expected,result[0],"SPO2 valid test fails");
         }
         [TestMethod]
@@ -79,7 +79,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = true;
             CheckParameter check = new CheckParameter();
-            result = check.ValueCheck(values);
+            result = check.AlertIsNeeded(values);
             Assert.AreEqual(expected, result[0], "SPO2 Invalid test fails");
         }
         [TestMethod]
@@ -93,7 +93,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = false;
             CheckParameter check = new CheckParameter();
-            result = check.ValueCheck(values);
+            result = check.AlertIsNeeded(values);
             Assert.AreEqual(expected, result[0], "Temp valid test fails");
         }
         public void TempInvalidTC(string[] values)
@@ -101,7 +101,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = true;
             CheckParameter check = new CheckParameter();
-            result = check.ValueCheck(values);
+            result = check.AlertIsNeeded(values);
             Assert.AreEqual(expected, result[0], "Temp Invalid test fails");
         }
         public void TempBoundaryTC()
@@ -113,7 +113,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = false;
             CheckParameter check = new CheckParameter();
-            result = check.ValueCheck(values);
+            result = check.AlertIsNeeded(values);
             Assert.AreEqual(expected, result[0], "Pulse valid test fails");
         }
         public void PulseInvalidTC(string[] values)
@@ -121,7 +121,7 @@ namespace CheckParameterTest
             Boolean[] result = new bool[] { true, true, true };
             bool expected = true;
             CheckParameter check = new CheckParameter();
-            result = check.ValueCheck(values);
+            result = check.AlertIsNeeded(values);
             Assert.AreEqual(expected, result[0], "Pulse Invalid test fails");
         }
         public void PulseBoundaryTC()

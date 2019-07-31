@@ -9,13 +9,19 @@ using Newtonsoft.Json.Linq;
 
 namespace RecieverPipe
 {
-    class RecieverPipe
+    public class RecieverClass
     {
+        static List<string> result = new List<string>();
+
+        public List<string> getResult()
+        {
+            return result;
+        }
         static void Main(string[] args)
         {
             string path = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()))) + @"\SenderPipe\bin\Debug\SenderPipe.exe";
 
-            var result = new List<string>();
+            
             
             // Create separate process
             var anotherProcess = new Process

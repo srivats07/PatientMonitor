@@ -15,3 +15,6 @@ C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\obj\Debug\CheckP
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.exe
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.pdb
 C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\CheckParameter.exe.config
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\RecieverPipe.exe
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\RecieverPipe.pdb
+C:\Users\320067390\P_Monitor2\PatientMonitor\CheckParameterTest\bin\Debug\RecieverPipe.exe.config
