@@ -10,16 +10,24 @@ namespace PatientMonitor
 
     public class CheckParameter
     {
+        
         public static bool abnormalTemp;
         public static bool abnormalSpo2;
         public static bool abnormalPR;
-        static int Spo2_min = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2_min"]);
-        static int Spo2_max = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2_max"]);
-        static double Temp_min = Convert.ToDouble(ConfigurationManager.AppSettings["Temp_min"]);
-        static double Temp_max = Convert.ToDouble(ConfigurationManager.AppSettings["Temp_max"]);
-        static int Pulse_min = Convert.ToInt32(ConfigurationManager.AppSettings["Pulse_min"]);
-        static int Pulse_max = Convert.ToInt32(ConfigurationManager.AppSettings["Pulse_max"]);
 
+        /// <summary>
+        /// The min and max values of spo2, pulseRate and temperature are declared in App.config
+        /// </summary>
+        static readonly int SPO2Min = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2Min"]);
+        static readonly int SPO2Max = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2Max"]);
+        static readonly double TempMin = Convert.ToDouble(ConfigurationManager.AppSettings["TempMin"]);
+        static readonly double TempMax = Convert.ToDouble(ConfigurationManager.AppSettings["TempMax"]);
+        static readonly int PulseMin = Convert.ToInt32(ConfigurationManager.AppSettings["PulseMin"]);
+        static readonly int PulseMax = Convert.ToInt32(ConfigurationManager.AppSettings["PulseMax"]);
+
+        /// <summary>
+        /// Patient Parameters
+        /// </summary>
         public enum Parameters
         {
             PatientID,
@@ -28,91 +36,74 @@ namespace PatientMonitor
             Temperature
         }
 
-        //public static void CheckWhetherAlertIsNeeded(string[] str)
-        //{
-        //    abnormalSpo2 = CheckSpo2Range(str[1]);
-        //    abnormalPR = CheckPulseRate(str[2]);
-        //    abnormalTemp = CheckTemperature(str[3]);
-        //}
-
-        //private static bool CheckSpo2Range(string Spo2)
-        //{
-        //    int Spo2_int = Convert.ToInt32(Spo2);
-        //    if (Spo2_int < Spo2_min || Spo2_int > Spo2_max)
-        //    {
-        //        SendAlert("SPO2-->" + Convert.ToString(Spo2_int));
-        //        return true;
-        //    }
-        //    else { return false; }
-        //}
-
-        //private static bool CheckPulseRate(string pulse)
-        //{
-        //    int pulse_int = Convert.ToInt32(pulse);
-        //    if (pulse_int < Pulse_min || pulse_int > Pulse_max)
-        //    {
-        //        SendAlert("PulseRate-->" + Convert.ToString(pulse_int));
-        //        return true;
-        //    }
-        //    else { return false; }
-        //}
-
-        //private static bool CheckTemperature(string temp)
-        //{
-        //    double temp_double = Convert.ToDouble(temp);
-        //    if (temp_double < Temp_min || temp_double > Temp_max)
-        //    {
-        //        SendAlert("Temperature-->" + Convert.ToString(temp_double));
-        //        return true;
-        //    }
-        //    else { return false; }
-        //}
-
-        //private static void SendAlert(string alert)
-        //{
-        //    Console.WriteLine("The {0} is out of range", alert);
-        //}
-        public void CheckWhetherAlertIsNeeded(Dictionary<Parameters, string> str)
+        /// <summary>
+        /// Checks whether parameters are in range and sends Alert accordingly
+        /// </summary>
+        /// <param name="dict"></param>
+        public void CheckWhetherAlertIsNeeded(Dictionary<Parameters, string> dict)
         {
-            var SPO2 = GetParameters(str, out var PulseRate, out var Temperature);
+            var SPO2 = GetParameters(dict, out var pulseRate, out var temperature);
 
-            if (checkSPO2(SPO2))
+            if (CheckSpo2(SPO2))
             {
-                SendAlert("SPO2-->" + Convert.ToString(SPO2));
+                SendAlert("spo2-->" + Convert.ToString(SPO2));
             }
-            if (checkPulse(PulseRate))
+            if (CheckPulse(pulseRate))
             {
-                SendAlert("PulseRate-->" + Convert.ToString(PulseRate));
+                SendAlert("pulseRate-->" + Convert.ToString(pulseRate));
             }
-            if (checkTemperature(Temperature))
+            if (CheckTemperature(temperature))
             {
-                SendAlert("Temperature-->" + Convert.ToString(Temperature));
+                SendAlert("temperature-->" + Convert.ToString(temperature));
             }
         }
-
-        private int GetParameters(Dictionary<Parameters, string> dict, out int PulseRate, out double Temperature)
+        /// <summary>
+        /// extract parameter values
+        /// </summary>
+        /// <param name="dict"></param>
+        /// <param name="pulseRate"></param>
+        /// <param name="temperature"></param>
+        /// <returns></returns>
+        private int GetParameters(Dictionary<Parameters, string> dict, out int pulseRate, out double temperature)
         {
             int SPO2 = int.Parse(dict[Parameters.SPO2]);
-            PulseRate = int.Parse(dict[Parameters.PulseRate]);
-            Temperature = double.Parse(dict[Parameters.Temperature]);
+            pulseRate = int.Parse(dict[Parameters.PulseRate]);
+            temperature = double.Parse(dict[Parameters.Temperature]);
             return SPO2;
         }
-
-        private static bool checkTemperature(double temp)
+        /// <summary>
+        /// Checks temperature range
+        /// </summary>
+        /// <param name="temp"></param>
+        /// <returns></returns>
+        private static bool CheckTemperature(double temp)
         {
-            return temp < 97.0 || temp > 99.0;
+            return temp < TempMax || temp > TempMin;
+        }
+        /// <summary>
+        /// Checks PulseRate range
+        /// </summary>
+        /// <param name="pulseRate"></param>
+        /// <returns></returns>
+        private static bool CheckPulse(int pulseRate)
+        {
+            return pulseRate < PulseMax || (pulseRate) > PulseMin;
         }
 
-        private static bool checkPulse(int PulseRate)
+        /// <summary>
+        /// Checks SPO2 range
+        /// </summary>
+        /// <param name="spo2"></param>
+        /// <returns></returns>
+        private static bool CheckSpo2(int spo2)
         {
-            return PulseRate < 60 || (PulseRate) > 100;
+            return spo2 < SPO2Max || spo2 > SPO2Min;
         }
 
-        private static bool checkSPO2(int SPO2)
-        {
-            return SPO2 < 91 || SPO2 > 100;
-        }
-
+        /// <summary>
+        /// Sends Alert message when parameter is out of range
+        /// </summary>
+        /// <param name="alert"></param>
         private void SendAlert(string alert)
         {
             Console.WriteLine("The {0} is out of range", alert);
