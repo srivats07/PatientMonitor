@@ -36,8 +36,8 @@ C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Patie
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Newtonsoft.Json.dll
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\PatientMonitor.pdb
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Newtonsoft.Json.xml
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CopyComplete
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.exe
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.pdb
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.exe
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.pdb
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csprojResolveAssemblyReference.cache

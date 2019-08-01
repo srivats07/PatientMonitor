@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7d8c6405-4dce-45e6-8f07-9e8fe416d1c4" name="320067581@INGBTCPIC5NBZZ4 2019-07-31 20:02:12" runUser="CODE1\320067581" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="78686815-85da-4419-a9e5-33c31c3a7fb0">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067581_INGBTCPIC5NBZZ4 2019-07-31 20_02_12" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-07-31T20:02:12.5346901+05:30" queuing="2019-07-31T20:02:13.1516809+05:30" start="2019-07-31T20:02:13.2246831+05:30" finish="2019-07-31T20:02:13.6126860+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SPO2BoundaryTCPlusOne" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="6384601c-6e91-8d88-7d0b-957a2e9458ca">
+      <Execution id="1cc721d9-4e09-4c36-806e-9104201f8a81" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SPO2BoundaryTCPlusOne" />
+    </UnitTest>
+    <UnitTest name="TempBoundaryTCZero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="91183195-af9d-285d-a7ed-c63c10e7d4bc">
+      <Execution id="2d1f36da-d33d-43b7-a360-6bc5b116791e" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempBoundaryTCZero" />
+    </UnitTest>
+    <UnitTest name="TempBoundaryTCMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="187ac4f0-ba5f-5d41-2065-36aa116f54f4">
+      <Execution id="d9a9435a-e11d-4a47-ac48-16797be89bf9" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempBoundaryTCMinus1" />
+    </UnitTest>
+    <UnitTest name="TempValidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="15d2601d-391e-459a-ef95-61056092a6f9">
+      <Execution id="dc5f3aaa-3885-4287-b7c3-344a425e6d22" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempValidTC" />
+    </UnitTest>
+    <UnitTest name="SPO2BoundaryTCMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="cf43fd0a-dbf8-fa0b-c091-50ac1559fbe5">
+      <Execution id="3950adf9-c01b-4aeb-a27d-f86da51694ba" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SPO2BoundaryTCMinus1" />
+    </UnitTest>
+    <UnitTest name="SPO2ValidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="d659fcae-0901-6bf9-1ffa-c1979fdb9893">
+      <Execution id="ef844bab-0f1b-4afd-8500-5ecf81ac9ed4" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SPO2ValidTC" />
+    </UnitTest>
+    <UnitTest name="TempBoundaryTCPlusOne" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="2949735a-dc9c-13ff-9985-f61b5f7955c4">
+      <Execution id="697be518-6e4e-49cb-ac3b-8481365c58d0" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempBoundaryTCPlusOne" />
+    </UnitTest>
+    <UnitTest name="PulseBoundaryTCMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="25a1d1ee-80d6-614a-200a-41f0eda98422">
+      <Execution id="d89b8c5f-5185-4831-8220-3c9941b5e6c2" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PulseBoundaryTCMinus1" />
+    </UnitTest>
+    <UnitTest name="TempInvalidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="a0735254-022d-738a-88b3-5a06da506750">
+      <Execution id="d7a8b7ed-4a7e-4eb1-82ba-41963879c510" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempInvalidTC" />
+    </UnitTest>
+    <UnitTest name="PulseBoundaryTCZero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="66bf1c53-98cc-b4e6-4f23-1fa95b671e46">
+      <Execution id="191b50b6-a16b-4bee-b686-5c12059fedd5" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PulseBoundaryTCZero" />
+    </UnitTest>
+    <UnitTest name="SPO2InvalidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="b57b14c3-eac8-00e9-46b6-ed7c3066dfa2">
+      <Execution id="cdbef747-7b51-4a9b-9ca5-0c306a3ad883" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SPO2InvalidTC" />
+    </UnitTest>
+    <UnitTest name="PulseInvalidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="8360458c-7750-bedc-91fa-8070edb99a59">
+      <Execution id="b2d15840-93cc-4432-9639-211da18703a7" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PulseInvalidTC" />
+    </UnitTest>
+    <UnitTest name="PulseValidTC" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="463eb0e3-41b3-8986-9695-919ab4255218">
+      <Execution id="5a820a1b-960f-4409-8aae-e0ad15eb303c" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PulseValidTC" />
+    </UnitTest>
+    <UnitTest name="SPO2BoundaryTCZero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="699c0386-af60-d233-9b2a-485c82fcf3df">
+      <Execution id="4ad006e3-8d8e-4150-8d56-608267337dfb" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SPO2BoundaryTCZero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="25a1d1ee-80d6-614a-200a-41f0eda98422" executionId="d89b8c5f-5185-4831-8220-3c9941b5e6c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66bf1c53-98cc-b4e6-4f23-1fa95b671e46" executionId="191b50b6-a16b-4bee-b686-5c12059fedd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8360458c-7750-bedc-91fa-8070edb99a59" executionId="b2d15840-93cc-4432-9639-211da18703a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="463eb0e3-41b3-8986-9695-919ab4255218" executionId="5a820a1b-960f-4409-8aae-e0ad15eb303c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf43fd0a-dbf8-fa0b-c091-50ac1559fbe5" executionId="3950adf9-c01b-4aeb-a27d-f86da51694ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6384601c-6e91-8d88-7d0b-957a2e9458ca" executionId="1cc721d9-4e09-4c36-806e-9104201f8a81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="699c0386-af60-d233-9b2a-485c82fcf3df" executionId="4ad006e3-8d8e-4150-8d56-608267337dfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b57b14c3-eac8-00e9-46b6-ed7c3066dfa2" executionId="cdbef747-7b51-4a9b-9ca5-0c306a3ad883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d659fcae-0901-6bf9-1ffa-c1979fdb9893" executionId="ef844bab-0f1b-4afd-8500-5ecf81ac9ed4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="187ac4f0-ba5f-5d41-2065-36aa116f54f4" executionId="d9a9435a-e11d-4a47-ac48-16797be89bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2949735a-dc9c-13ff-9985-f61b5f7955c4" executionId="697be518-6e4e-49cb-ac3b-8481365c58d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91183195-af9d-285d-a7ed-c63c10e7d4bc" executionId="2d1f36da-d33d-43b7-a360-6bc5b116791e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0735254-022d-738a-88b3-5a06da506750" executionId="d7a8b7ed-4a7e-4eb1-82ba-41963879c510" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15d2601d-391e-459a-ef95-61056092a6f9" executionId="dc5f3aaa-3885-4287-b7c3-344a425e6d22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d89b8c5f-5185-4831-8220-3c9941b5e6c2" testId="25a1d1ee-80d6-614a-200a-41f0eda98422" testName="PulseBoundaryTCMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0154313" startTime="2019-07-31T20:02:13.2576817+05:30" endTime="2019-07-31T20:02:13.5106834+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d89b8c5f-5185-4831-8220-3c9941b5e6c2">
+      <Output>
+        <StdOut>The PulseRate--&gt;59 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="191b50b6-a16b-4bee-b686-5c12059fedd5" testId="66bf1c53-98cc-b4e6-4f23-1fa95b671e46" testName="PulseBoundaryTCZero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002927" startTime="2019-07-31T20:02:13.5126833+05:30" endTime="2019-07-31T20:02:13.5146903+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="191b50b6-a16b-4bee-b686-5c12059fedd5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b2d15840-93cc-4432-9639-211da18703a7" testId="8360458c-7750-bedc-91fa-8070edb99a59" testName="PulseInvalidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003062" startTime="2019-07-31T20:02:13.5166848+05:30" endTime="2019-07-31T20:02:13.5196860+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2d15840-93cc-4432-9639-211da18703a7">
+      <Output>
+        <StdOut>The PulseRate--&gt;50 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a820a1b-960f-4409-8aae-e0ad15eb303c" testId="463eb0e3-41b3-8986-9695-919ab4255218" testName="PulseValidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002257" startTime="2019-07-31T20:02:13.5216817+05:30" endTime="2019-07-31T20:02:13.5237361+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a820a1b-960f-4409-8aae-e0ad15eb303c">
+    </UnitTestResult>
+    <UnitTestResult executionId="3950adf9-c01b-4aeb-a27d-f86da51694ba" testId="cf43fd0a-dbf8-fa0b-c091-50ac1559fbe5" testName="SPO2BoundaryTCMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003116" startTime="2019-07-31T20:02:13.5256886+05:30" endTime="2019-07-31T20:02:13.5276852+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3950adf9-c01b-4aeb-a27d-f86da51694ba">
+      <Output>
+        <StdOut>The SPO2--&gt;90 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cc721d9-4e09-4c36-806e-9104201f8a81" testId="6384601c-6e91-8d88-7d0b-957a2e9458ca" testName="SPO2BoundaryTCPlusOne" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002678" startTime="2019-07-31T20:02:13.5296857+05:30" endTime="2019-07-31T20:02:13.5316857+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cc721d9-4e09-4c36-806e-9104201f8a81">
+      <Output>
+        <StdOut>The SPO2--&gt;101 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4ad006e3-8d8e-4150-8d56-608267337dfb" testId="699c0386-af60-d233-9b2a-485c82fcf3df" testName="SPO2BoundaryTCZero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002754" startTime="2019-07-31T20:02:13.5336829+05:30" endTime="2019-07-31T20:02:13.5356823+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ad006e3-8d8e-4150-8d56-608267337dfb">
+    </UnitTestResult>
+    <UnitTestResult executionId="cdbef747-7b51-4a9b-9ca5-0c306a3ad883" testId="b57b14c3-eac8-00e9-46b6-ed7c3066dfa2" testName="SPO2InvalidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003370" startTime="2019-07-31T20:02:13.5376817+05:30" endTime="2019-07-31T20:02:13.5406845+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdbef747-7b51-4a9b-9ca5-0c306a3ad883">
+      <Output>
+        <StdOut>The SPO2--&gt;101 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef844bab-0f1b-4afd-8500-5ecf81ac9ed4" testId="d659fcae-0901-6bf9-1ffa-c1979fdb9893" testName="SPO2ValidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002754" startTime="2019-07-31T20:02:13.5436944+05:30" endTime="2019-07-31T20:02:13.5456917+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef844bab-0f1b-4afd-8500-5ecf81ac9ed4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9a9435a-e11d-4a47-ac48-16797be89bf9" testId="187ac4f0-ba5f-5d41-2065-36aa116f54f4" testName="TempBoundaryTCMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003062" startTime="2019-07-31T20:02:13.5476835+05:30" endTime="2019-07-31T20:02:13.5506869+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9a9435a-e11d-4a47-ac48-16797be89bf9">
+      <Output>
+        <StdOut>The Temperature--&gt;96.9 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="697be518-6e4e-49cb-ac3b-8481365c58d0" testId="2949735a-dc9c-13ff-9985-f61b5f7955c4" testName="TempBoundaryTCPlusOne" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003229" startTime="2019-07-31T20:02:13.5526852+05:30" endTime="2019-07-31T20:02:13.5556843+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="697be518-6e4e-49cb-ac3b-8481365c58d0">
+      <Output>
+        <StdOut>The Temperature--&gt;99.1 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d1f36da-d33d-43b7-a360-6bc5b116791e" testId="91183195-af9d-285d-a7ed-c63c10e7d4bc" testName="TempBoundaryTCZero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003132" startTime="2019-07-31T20:02:13.5576853+05:30" endTime="2019-07-31T20:02:13.5617311+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d1f36da-d33d-43b7-a360-6bc5b116791e">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7a8b7ed-4a7e-4eb1-82ba-41963879c510" testId="a0735254-022d-738a-88b3-5a06da506750" testName="TempInvalidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003758" startTime="2019-07-31T20:02:13.5636846+05:30" endTime="2019-07-31T20:02:13.5666929+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7a8b7ed-4a7e-4eb1-82ba-41963879c510">
+      <Output>
+        <StdOut>The Temperature--&gt;90.3 is out of range</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc5f3aaa-3885-4287-b7c3-344a425e6d22" testId="15d2601d-391e-459a-ef95-61056092a6f9" testName="TempValidTC" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002581" startTime="2019-07-31T20:02:13.5686842+05:30" endTime="2019-07-31T20:02:13.5707208+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc5f3aaa-3885-4287-b7c3-344a425e6d22">
+    </UnitTestResult>
+  </Results>
+</TestRun>

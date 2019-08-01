@@ -30,11 +30,10 @@ echo Executing batch file
 :: param4 =     Platform: default: x64 or Win32, Range: Win32 OR x64
 
 devenv "%BAT_PATH%\Alerting.sln" /build Debug 
-mstest /TestContainer:"%BAT_PATH%PatientMoniterTest\bin\Debug\PatientMoniterTest.dll" /Test:SPO2ValidTC /Test:SPO2InvalidTC /Test:SPO2BoundaryTCMinus1 /Test:SPO2BoundaryTCZero /Test:SPO2BoundaryTCPlusOne /Test:TempValidTC /Test:TempInvalidTC /Test:TempBoundaryTCMinus1 /Test:TempBoundaryTCZero /Test:TempBoundaryTCPlusOne /Test:PulseValidTC /Test:PulseInvalidTC /Test:PulseBoundaryTCMinus1 /Test:PulseBoundaryTCZero /Test:PulseBoundaryTCPlusOne
+::mstest /TestContainer:"%BAT_PATH%PatientMoniterTest\bin\Debug\PatientMoniterTest.dll" /Test:SPO2ValidTC /Test:SPO2InvalidTC /Test:SPO2BoundaryTCMinus1 /Test:SPO2BoundaryTCZero /Test:SPO2BoundaryTCPlusOne /Test:TempValidTC /Test:TempInvalidTC /Test:TempBoundaryTCMinus1 /Test:TempBoundaryTCZero /Test:TempBoundaryTCPlusOne /Test:PulseValidTC /Test:PulseInvalidTC /Test:PulseBoundaryTCMinus1 /Test:PulseBoundaryTCZero /Test:PulseBoundaryTCPlusOne
  
 
 echo.
 
-
-pushd %BAT_PATH%Alerting\Alerting\Bin\Debug
-type %BAT_PATH%\Alerting\Bin\Debug\MOCK_DATA.json | %BAT_PATH%\Alerting\Bin\Debug\Alerting.exe 
+call %BAT_PATH%JsonGenerator\bin\Debug\JsonGenerator.exe | %BAT_PATH%Alerting\bin\Debug\Alerting.exe 
+pause

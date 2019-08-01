@@ -29,6 +29,8 @@ C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\D
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\Debug\Newtonsoft.Json.xml
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.csprojResolveAssemblyReference.cache
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.dll
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.pdb
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.csprojAssemblyReference.cache
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.csproj.CoreCompileInputs.cache
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.csproj.CopyComplete
