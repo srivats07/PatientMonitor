@@ -31,6 +31,7 @@ namespace PatientMonitor
         public enum Parameters
         {
             PatientID,
+
             SPO2,
             PulseRate,
             Temperature
@@ -40,19 +41,19 @@ namespace PatientMonitor
         /// Checks whether parameters are in range and sends Alert accordingly
         /// </summary>
         /// <param name="dict"></param>
-        public void CheckWhetherAlertIsNeeded(Dictionary<Parameters, string> dict)
+        public void VitalsAreNormal(Dictionary<Parameters, string> dict)
         {
-            var SPO2 = GetParameters(dict, out var pulseRate, out var temperature);
+            GetParameters(dict,out var SPO2, out var pulseRate, out var temperature);
 
-            if (CheckSpo2(SPO2))
+            if (AbnormalSpo2(SPO2))
             {
                 SendAlert("spo2-->" + Convert.ToString(SPO2));
             }
-            if (CheckPulse(pulseRate))
+            if (AbnormalPulse(pulseRate))
             {
                 SendAlert("pulseRate-->" + Convert.ToString(pulseRate));
             }
-            if (CheckTemperature(temperature))
+            if (AbnormalTemperature(temperature))
             {
                 SendAlert("temperature-->" + Convert.ToString(temperature));
             }
@@ -64,30 +65,30 @@ namespace PatientMonitor
         /// <param name="pulseRate"></param>
         /// <param name="temperature"></param>
         /// <returns></returns>
-        private int GetParameters(Dictionary<Parameters, string> dict, out int pulseRate, out double temperature)
+        public void GetParameters(Dictionary<Parameters, string> dict,out int SPO2, out int pulseRate, out double temperature)
         {
-            int SPO2 = int.Parse(dict[Parameters.SPO2]);
+            SPO2 = int.Parse(dict[Parameters.SPO2]);
             pulseRate = int.Parse(dict[Parameters.PulseRate]);
             temperature = double.Parse(dict[Parameters.Temperature]);
-            return SPO2;
+            
         }
         /// <summary>
         /// Checks temperature range
         /// </summary>
         /// <param name="temp"></param>
         /// <returns></returns>
-        private static bool CheckTemperature(double temp)
+        public bool AbnormalTemperature(double temp)
         {
-            return temp < TempMax || temp > TempMin;
+            return temp > TempMax || temp < TempMin;
         }
         /// <summary>
         /// Checks PulseRate range
         /// </summary>
         /// <param name="pulseRate"></param>
         /// <returns></returns>
-        private static bool CheckPulse(int pulseRate)
+        public bool AbnormalPulse(int pulseRate)
         {
-            return pulseRate < PulseMax || (pulseRate) > PulseMin;
+            return pulseRate > PulseMax || (pulseRate) < PulseMin;
         }
 
         /// <summary>
@@ -95,9 +96,9 @@ namespace PatientMonitor
         /// </summary>
         /// <param name="spo2"></param>
         /// <returns></returns>
-        private static bool CheckSpo2(int spo2)
+        public bool AbnormalSpo2(int spo2)
         {
-            return spo2 < SPO2Max || spo2 > SPO2Min;
+            return spo2 > SPO2Max || spo2 < SPO2Min;
         }
 
         /// <summary>

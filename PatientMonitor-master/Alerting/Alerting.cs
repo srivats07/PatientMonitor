@@ -21,7 +21,7 @@ namespace Alerting
                 Console.WriteLine(ln);
                 string[] stringArray = StringArrayGenerator(ln);
                 Dictionary<CheckParameter.Parameters,string> data = DictGenerator(stringArray);
-                obj.CheckWhetherAlertIsNeeded(data);
+                obj.VitalsAreNormal(data);
                 Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine();
             }
