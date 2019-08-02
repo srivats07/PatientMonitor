@@ -15,6 +15,8 @@ namespace PatientMonitor
         public static bool abnormalSpo2;
         public static bool abnormalPR;
 
+
+
         /// <summary>
         /// The min and max values of spo2, pulseRate and temperature are declared in App.config
         /// </summary>
@@ -24,6 +26,7 @@ namespace PatientMonitor
         static readonly double TempMax = Convert.ToDouble(ConfigurationManager.AppSettings["TempMax"]);
         static readonly int PulseMin = Convert.ToInt32(ConfigurationManager.AppSettings["PulseMin"]);
         static readonly int PulseMax = Convert.ToInt32(ConfigurationManager.AppSettings["PulseMax"]);
+
 
         /// <summary>
         /// Patient Parameters
@@ -98,7 +101,7 @@ namespace PatientMonitor
         /// <returns></returns>
         public bool AbnormalSpo2(int spo2)
         {
-            return spo2 > SPO2Max || spo2 < SPO2Min;
+            return (spo2 > SPO2Max || spo2 < SPO2Min);
         }
 
         /// <summary>
