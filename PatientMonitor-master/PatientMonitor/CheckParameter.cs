@@ -11,17 +11,11 @@ namespace PatientMonitor
     public class CheckParameter
     {
         
-        public static bool abnormalTemp;
-        public static bool abnormalSpo2;
-        public static bool abnormalPR;
-
-
-
         /// <summary>
         /// The min and max values of spo2, pulseRate and temperature are declared in App.config
         /// </summary>
-        static readonly int SPO2Min = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2Min"]);
-        static readonly int SPO2Max = Convert.ToInt32(ConfigurationManager.AppSettings["SPO2Max"]);
+        static readonly int Spo2Min = Convert.ToInt32(ConfigurationManager.AppSettings["Spo2Min"]);
+        static readonly int Spo2Max = Convert.ToInt32(ConfigurationManager.AppSettings["Spo2Max"]);
         static readonly double TempMin = Convert.ToDouble(ConfigurationManager.AppSettings["TempMin"]);
         static readonly double TempMax = Convert.ToDouble(ConfigurationManager.AppSettings["TempMax"]);
         static readonly int PulseMin = Convert.ToInt32(ConfigurationManager.AppSettings["PulseMin"]);
@@ -33,9 +27,8 @@ namespace PatientMonitor
         /// </summary>
         public enum Parameters
         {
-            PatientID,
-
-            SPO2,
+            PatientId,
+            Spo2,
             PulseRate,
             Temperature
         }
@@ -48,15 +41,15 @@ namespace PatientMonitor
         {
             GetParameters(dict,out var SPO2, out var pulseRate, out var temperature);
 
-            if (AbnormalSpo2(SPO2))
+            if (IsAbnormalSpo2(SPO2))
             {
                 SendAlert("spo2-->" + Convert.ToString(SPO2));
             }
-            if (AbnormalPulse(pulseRate))
+            if (IsAbnormalPulse(pulseRate))
             {
                 SendAlert("pulseRate-->" + Convert.ToString(pulseRate));
             }
-            if (AbnormalTemperature(temperature))
+            if (IsAbnormalTemperature(temperature))
             {
                 SendAlert("temperature-->" + Convert.ToString(temperature));
             }
@@ -68,11 +61,36 @@ namespace PatientMonitor
         /// <param name="pulseRate"></param>
         /// <param name="temperature"></param>
         /// <returns></returns>
-        public void GetParameters(Dictionary<Parameters, string> dict,out int SPO2, out int pulseRate, out double temperature)
+        public void GetParameters(Dictionary<Parameters, string> dict,out int spo2, out int pulseRate, out double temperature)
         {
-            SPO2 = int.Parse(dict[Parameters.SPO2]);
-            pulseRate = int.Parse(dict[Parameters.PulseRate]);
-            temperature = double.Parse(dict[Parameters.Temperature]);
+            try
+            {
+                spo2 = int.Parse(dict[Parameters.Spo2]);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Unable to parse the Spo2 Value");
+                spo2 = 0;
+            }
+            try
+            {
+                pulseRate = int.Parse(dict[Parameters.PulseRate]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unable to parse the Pulse Rate Value");
+                pulseRate = 0;
+            }
+            try
+            {
+                temperature = double.Parse(dict[Parameters.Temperature]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unable to parse the Temperature Value");
+                temperature = 0;
+            }
+            
             
         }
         /// <summary>
@@ -80,7 +98,7 @@ namespace PatientMonitor
         /// </summary>
         /// <param name="temp"></param>
         /// <returns></returns>
-        public bool AbnormalTemperature(double temp)
+        public bool IsAbnormalTemperature(double temp)
         {
             return temp > TempMax || temp < TempMin;
         }
@@ -89,19 +107,19 @@ namespace PatientMonitor
         /// </summary>
         /// <param name="pulseRate"></param>
         /// <returns></returns>
-        public bool AbnormalPulse(int pulseRate)
+        public bool IsAbnormalPulse(int pulseRate)
         {
             return pulseRate > PulseMax || (pulseRate) < PulseMin;
         }
 
         /// <summary>
-        /// Checks SPO2 range
+        /// Checks Spo2 range
         /// </summary>
         /// <param name="spo2"></param>
         /// <returns></returns>
-        public bool AbnormalSpo2(int spo2)
+        public bool IsAbnormalSpo2(int spo2)
         {
-            return (spo2 > SPO2Max || spo2 < SPO2Min);
+            return (spo2 > Spo2Max || spo2 < Spo2Min);
         }
 
         /// <summary>

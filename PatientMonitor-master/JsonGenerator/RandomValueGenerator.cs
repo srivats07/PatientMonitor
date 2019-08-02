@@ -12,9 +12,15 @@ namespace JsonGenerator
 {
     public class RandomValueGenerator
     {
-        public static int size = 100;
-        public static string b;
-        public static Random rand = new Random();
+        const int TempMinGenerate = 90;
+        const int TempMaxGenerate = 100;
+        const int PulseMinGenerate = 40;
+        const int PulseMaxGenerate = 220;
+        const int Spo2MinGenerate = 30;
+        const int Spo2MaxGenerate = 254;
+
+        static Random random = new Random();
+        
         /// <summary>
         /// Generates random data
         /// </summary>
@@ -22,11 +28,11 @@ namespace JsonGenerator
         public static String RandomDataGenerator()
         {
             String json = null;
-            Random random = new Random();
+            
             string patientId = RandomString();
-            double patientTemperature = Math.Round(90 + (100 - 90) * rand.NextDouble(), 2, MidpointRounding.ToEven);
-            decimal patientPulseRate = random.Next(40, 220);
-            decimal patientSpo2 = random.Next(30, 254);
+            double patientTemperature = Math.Round(TempMinGenerate + (TempMaxGenerate - TempMinGenerate) * random.NextDouble(), 2, MidpointRounding.ToEven);
+            decimal patientPulseRate = random.Next(PulseMinGenerate, PulseMaxGenerate);
+            decimal patientSpo2 = random.Next(Spo2MinGenerate, Spo2MaxGenerate);
             var patients = new
             {
                 PatientID = patientId,
@@ -38,7 +44,7 @@ namespace JsonGenerator
             return json;
         }
         /// <summary>
-        /// Generates random PatientID
+        /// Generates random PatientId
         /// </summary>
         /// <returns></returns>
 
@@ -49,7 +55,7 @@ namespace JsonGenerator
             char ch;
             for (int i = 0; i < 8; i++)
             {
-                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * rand.NextDouble() + 65)));
+                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * random.NextDouble() + 65)));
                 builder.Append(ch);
             }
             return builder.ToString();

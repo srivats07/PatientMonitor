@@ -19,8 +19,8 @@ namespace Alerting
             {
                 Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine(ln);
-                string[] stringArray = StringArrayGenerator(ln);
-                Dictionary<CheckParameter.Parameters,string> data = DictGenerator(stringArray);
+                string[] stringArray = ConvertJson(ln);
+                Dictionary<CheckParameter.Parameters,string> data = GenerateData(stringArray);
                 obj.VitalsAreNormal(data);
                 Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine();
@@ -32,12 +32,12 @@ namespace Alerting
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        private static Dictionary<CheckParameter.Parameters,string> DictGenerator(string [] str)
+        private static Dictionary<CheckParameter.Parameters,string> GenerateData(string [] str)
         {
             Dictionary<CheckParameter.Parameters, string> dict = new Dictionary<CheckParameter.Parameters, string>
             {
-                { CheckParameter.Parameters.PatientID, str[0] },
-                { CheckParameter.Parameters.SPO2, str[1] },
+                { CheckParameter.Parameters.PatientId, str[0] },
+                { CheckParameter.Parameters.Spo2, str[1] },
                 { CheckParameter.Parameters.PulseRate, str[2] },
                 { CheckParameter.Parameters.Temperature, str[3] }
             };
@@ -49,7 +49,7 @@ namespace Alerting
         /// </summary>
         /// <param name="ln"></param>
         /// <returns></returns>
-        private static string[] StringArrayGenerator(string ln)
+        private static string[] ConvertJson(string ln)
         {
             int i = 0;
             string[] strArray = new string[4];

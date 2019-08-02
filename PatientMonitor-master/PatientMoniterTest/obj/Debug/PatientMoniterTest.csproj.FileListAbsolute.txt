@@ -71,3 +71,4 @@ C:\Users\320067390\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\D
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.dll
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\PatientMoniterTest\obj\Debug\PatientMoniterTest.pdb
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\Debug\PatientMoniterTest.dll.config
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\bin\Debug\PatientMoniterTest.dll.config

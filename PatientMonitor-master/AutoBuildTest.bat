@@ -38,6 +38,6 @@ pause
 echo.
 
 
-type %BAT_PATH%\Alerting\Bin\Debug\MOCK_DATA.json | %BAT_PATH%\Alerting\Bin\Debug\Alerting.exe 
+call %BAT_PATH%JsonGenerator\bin\Debug\JsonGenerator.exe | %BAT_PATH%Alerting\bin\Debug\Alerting.exe 
 
 pause

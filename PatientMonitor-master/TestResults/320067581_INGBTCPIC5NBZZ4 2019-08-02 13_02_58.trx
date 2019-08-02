@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="63ed36dd-f7f2-4b73-943a-d67e7c1e9fd6" name="320067581@INGBTCPIC5NBZZ4 2019-08-02 13:02:58" runUser="CODE1\320067581" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="a1eb64bc-fbe1-4bcf-be27-52eb9b3faf07">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067581_INGBTCPIC5NBZZ4 2019-08-02 13_02_58" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-08-02T13:02:58.5331706+05:30" queuing="2019-08-02T13:02:59.0231698+05:30" start="2019-08-02T13:02:59.0942486+05:30" finish="2019-08-02T13:02:59.4262153+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSpo2Valid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="863804d6-848a-c3bc-1e6d-6e95f526f8a5">
+      <Execution id="aa68e6e9-a67d-4757-9c90-1a6f437edc93" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2Valid" />
+    </UnitTest>
+    <UnitTest name="TestParameters" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45">
+      <Execution id="b3075f93-a487-41a4-8e66-1be1db9367b3" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParameters" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45" executionId="b3075f93-a487-41a4-8e66-1be1db9367b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="863804d6-848a-c3bc-1e6d-6e95f526f8a5" executionId="aa68e6e9-a67d-4757-9c90-1a6f437edc93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b3075f93-a487-41a4-8e66-1be1db9367b3" testId="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45" testName="TestParameters" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0204070" startTime="2019-08-02T13:02:59.1251811+05:30" endTime="2019-08-02T13:02:59.3581907+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3075f93-a487-41a4-8e66-1be1db9367b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa68e6e9-a67d-4757-9c90-1a6f437edc93" testId="863804d6-848a-c3bc-1e6d-6e95f526f8a5" testName="TestSpo2Valid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0259823" startTime="2019-08-02T13:02:59.3591839+05:30" endTime="2019-08-02T13:02:59.3871853+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa68e6e9-a67d-4757-9c90-1a6f437edc93">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method PatientMoniterTest.UnitTest1.TestSpo2Valid threw exception: 
+System.MissingMethodException: Method 'PatientMonitor.CheckParameter.IsAbnormalSpo2' not found.</Message>
+          <StackTrace>    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at PatientMoniterTest.UnitTest1.TestSpo2Valid() in C:\Users\320067581\PatientMonitor\PatientMonitor-master\PatientMoniterTest\UnitTest1.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

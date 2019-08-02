@@ -40,10 +40,6 @@ C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alert
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.pdb
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.exe
 C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.pdb
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.exe.config
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
-C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CopyComplete
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Alerting.exe.config
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Alerting.exe
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\Alerting.pdb
@@ -59,3 +55,7 @@ C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonG
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
 C:\Users\320067390\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CopyComplete
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\bin\Debug\JsonGenerator.exe.config
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csprojAssemblyReference.cache
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CoreCompileInputs.cache
+C:\Users\320067581\PatientMonitor\PatientMonitor-master\Alerting\obj\Debug\Alerting.csproj.CopyComplete

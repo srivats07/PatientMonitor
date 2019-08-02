@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c8381dc5-e841-4007-a54f-9f1405963bd7" name="320067581@INGBTCPIC5NBZZ4 2019-08-02 12:10:35" runUser="CODE1\320067581" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e4b00ace-df9d-4912-89db-79f613767436">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067581_INGBTCPIC5NBZZ4 2019-08-02 12_10_35" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-08-02T12:10:35.8151409+05:30" queuing="2019-08-02T12:10:36.3501418+05:30" start="2019-08-02T12:10:36.4241015+05:30" finish="2019-08-02T12:10:36.8462235+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPulseValid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="2c962e9b-76f1-7164-b430-b1658e4812e5">
+      <Execution id="7d118579-17b6-4a3b-86d6-4a306e31e98d" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPulseValid" />
+    </UnitTest>
+    <UnitTest name="TestSpo2Valid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="863804d6-848a-c3bc-1e6d-6e95f526f8a5">
+      <Execution id="f84f55c1-1989-4b4e-88ab-f57dab4355cd" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2Valid" />
+    </UnitTest>
+    <UnitTest name="TestTempBoundaryZero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="cd6cd233-ad01-65af-f5ad-a475e76877f6">
+      <Execution id="fd003c35-479e-495e-af33-e29f986534da" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTempBoundaryZero" />
+    </UnitTest>
+    <UnitTest name="TestTempBoundaryMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="9dcd935f-7349-6bbb-9de8-8d3833ae9fe1">
+      <Execution id="7c18b380-178e-4bac-bc5d-910359f1a4d1" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTempBoundaryMinus1" />
+    </UnitTest>
+    <UnitTest name="TestSpo2BoundaryPlus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="6208f2e7-0714-47c5-55c1-c6e1cced7cca">
+      <Execution id="f119a5d0-94cd-4370-8f8e-792993d2478d" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2BoundaryPlus1" />
+    </UnitTest>
+    <UnitTest name="TestPulseBoundaryMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="a3de01fd-898c-6ef5-19df-fda7da7c5d5e">
+      <Execution id="3e2556f5-3318-4242-b091-320d63b6f9c1" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPulseBoundaryMinus1" />
+    </UnitTest>
+    <UnitTest name="TestParameters" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45">
+      <Execution id="34ffa33f-05fd-4cc4-920b-431d15fe9b88" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParameters" />
+    </UnitTest>
+    <UnitTest name="TestPulseBoundaryZero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="a7ad3733-274e-6e22-39de-27a342be96f1">
+      <Execution id="9f5f6ade-5362-4e63-a162-75e54ec33d55" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPulseBoundaryZero" />
+    </UnitTest>
+    <UnitTest name="TestSpo2Invalid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="f11216c1-f6d2-2b38-344f-0aaf7d599578">
+      <Execution id="a0956bf7-3628-4f5f-aab9-9ef8e292784b" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2Invalid" />
+    </UnitTest>
+    <UnitTest name="TestTempValid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="243659e1-a994-f57b-1b27-a57cb21ffdc9">
+      <Execution id="ac5b815f-19c7-4ec5-8fc3-e3c006b9fb1e" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTempValid" />
+    </UnitTest>
+    <UnitTest name="TestSpo2BoundaryMinus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="b149617e-1949-d2d2-d3a7-513026d30454">
+      <Execution id="a7523ebc-da06-4a2e-b3ce-151b9e107166" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2BoundaryMinus1" />
+    </UnitTest>
+    <UnitTest name="TestTempBoundaryPlus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="ddb96599-2344-1c94-7b25-024559ad73b3">
+      <Execution id="cd600f59-3db4-4ba9-9a80-c0dbd058baab" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTempBoundaryPlus1" />
+    </UnitTest>
+    <UnitTest name="TestTempInvalid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="f67c9753-00ab-3f6b-09e9-82550a44cc31">
+      <Execution id="fe5550bd-7e1b-4100-9863-adc4e7f09643" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTempInvalid" />
+    </UnitTest>
+    <UnitTest name="TestPulseInvalid" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="9e00be19-a6e0-0e25-22db-3f57d8cdbb52">
+      <Execution id="f8668bed-5c18-49e7-9111-b52eb8d87fc5" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPulseInvalid" />
+    </UnitTest>
+    <UnitTest name="TestSpo2Boundaryzero" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="4c98a5a0-9b82-2483-26bc-2d4b9b928055">
+      <Execution id="84759c16-3fa0-478e-abfb-a5931d71aa04" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSpo2Boundaryzero" />
+    </UnitTest>
+    <UnitTest name="TestPulseBoundaryPlus1" storage="c:\users\320067581\patientmonitor\patientmonitor-master\patientmonitertest\bin\debug\patientmonitertest.dll" id="c9c88640-010c-0138-ad8b-90168ca225de">
+      <Execution id="807b2d3e-140b-472a-a064-340411c092ba" />
+      <TestMethod codeBase="C:/Users/320067581/PatientMonitor/PatientMonitor-master/PatientMoniterTest/bin/Debug/PatientMoniterTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientMoniterTest.UnitTest1, PatientMoniterTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPulseBoundaryPlus1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45" executionId="34ffa33f-05fd-4cc4-920b-431d15fe9b88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3de01fd-898c-6ef5-19df-fda7da7c5d5e" executionId="3e2556f5-3318-4242-b091-320d63b6f9c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9c88640-010c-0138-ad8b-90168ca225de" executionId="807b2d3e-140b-472a-a064-340411c092ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7ad3733-274e-6e22-39de-27a342be96f1" executionId="9f5f6ade-5362-4e63-a162-75e54ec33d55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e00be19-a6e0-0e25-22db-3f57d8cdbb52" executionId="f8668bed-5c18-49e7-9111-b52eb8d87fc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c962e9b-76f1-7164-b430-b1658e4812e5" executionId="7d118579-17b6-4a3b-86d6-4a306e31e98d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b149617e-1949-d2d2-d3a7-513026d30454" executionId="a7523ebc-da06-4a2e-b3ce-151b9e107166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6208f2e7-0714-47c5-55c1-c6e1cced7cca" executionId="f119a5d0-94cd-4370-8f8e-792993d2478d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c98a5a0-9b82-2483-26bc-2d4b9b928055" executionId="84759c16-3fa0-478e-abfb-a5931d71aa04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f11216c1-f6d2-2b38-344f-0aaf7d599578" executionId="a0956bf7-3628-4f5f-aab9-9ef8e292784b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="863804d6-848a-c3bc-1e6d-6e95f526f8a5" executionId="f84f55c1-1989-4b4e-88ab-f57dab4355cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dcd935f-7349-6bbb-9de8-8d3833ae9fe1" executionId="7c18b380-178e-4bac-bc5d-910359f1a4d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddb96599-2344-1c94-7b25-024559ad73b3" executionId="cd600f59-3db4-4ba9-9a80-c0dbd058baab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd6cd233-ad01-65af-f5ad-a475e76877f6" executionId="fd003c35-479e-495e-af33-e29f986534da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f67c9753-00ab-3f6b-09e9-82550a44cc31" executionId="fe5550bd-7e1b-4100-9863-adc4e7f09643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="243659e1-a994-f57b-1b27-a57cb21ffdc9" executionId="ac5b815f-19c7-4ec5-8fc3-e3c006b9fb1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34ffa33f-05fd-4cc4-920b-431d15fe9b88" testId="fe8fb1fd-e8b7-42b4-e3ba-a4d743006a45" testName="TestParameters" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0203682" startTime="2019-08-02T12:10:36.4561444+05:30" endTime="2019-08-02T12:10:36.7296331+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34ffa33f-05fd-4cc4-920b-431d15fe9b88">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e2556f5-3318-4242-b091-320d63b6f9c1" testId="a3de01fd-898c-6ef5-19df-fda7da7c5d5e" testName="TestPulseBoundaryMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0010758" startTime="2019-08-02T12:10:36.7316368+05:30" endTime="2019-08-02T12:10:36.7346780+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e2556f5-3318-4242-b091-320d63b6f9c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="807b2d3e-140b-472a-a064-340411c092ba" testId="c9c88640-010c-0138-ad8b-90168ca225de" testName="TestPulseBoundaryPlus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001663" startTime="2019-08-02T12:10:36.7366342+05:30" endTime="2019-08-02T12:10:36.7396344+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="807b2d3e-140b-472a-a064-340411c092ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f5f6ade-5362-4e63-a162-75e54ec33d55" testId="a7ad3733-274e-6e22-39de-27a342be96f1" testName="TestPulseBoundaryZero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001550" startTime="2019-08-02T12:10:36.7416360+05:30" endTime="2019-08-02T12:10:36.7436413+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f5f6ade-5362-4e63-a162-75e54ec33d55">
+    </UnitTestResult>
+    <UnitTestResult executionId="f8668bed-5c18-49e7-9111-b52eb8d87fc5" testId="9e00be19-a6e0-0e25-22db-3f57d8cdbb52" testName="TestPulseInvalid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001474" startTime="2019-08-02T12:10:36.7456375+05:30" endTime="2019-08-02T12:10:36.7476369+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8668bed-5c18-49e7-9111-b52eb8d87fc5">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d118579-17b6-4a3b-86d6-4a306e31e98d" testId="2c962e9b-76f1-7164-b430-b1658e4812e5" testName="TestPulseValid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002003" startTime="2019-08-02T12:10:36.7496363+05:30" endTime="2019-08-02T12:10:36.7526349+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d118579-17b6-4a3b-86d6-4a306e31e98d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7523ebc-da06-4a2e-b3ce-151b9e107166" testId="b149617e-1949-d2d2-d3a7-513026d30454" testName="TestSpo2BoundaryMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003137" startTime="2019-08-02T12:10:36.7556351+05:30" endTime="2019-08-02T12:10:36.7576339+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7523ebc-da06-4a2e-b3ce-151b9e107166">
+    </UnitTestResult>
+    <UnitTestResult executionId="f119a5d0-94cd-4370-8f8e-792993d2478d" testId="6208f2e7-0714-47c5-55c1-c6e1cced7cca" testName="TestSpo2BoundaryPlus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001863" startTime="2019-08-02T12:10:36.7596387+05:30" endTime="2019-08-02T12:10:36.7627075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f119a5d0-94cd-4370-8f8e-792993d2478d">
+    </UnitTestResult>
+    <UnitTestResult executionId="84759c16-3fa0-478e-abfb-a5931d71aa04" testId="4c98a5a0-9b82-2483-26bc-2d4b9b928055" testName="TestSpo2Boundaryzero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002079" startTime="2019-08-02T12:10:36.7646470+05:30" endTime="2019-08-02T12:10:36.7676904+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84759c16-3fa0-478e-abfb-a5931d71aa04">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0956bf7-3628-4f5f-aab9-9ef8e292784b" testId="f11216c1-f6d2-2b38-344f-0aaf7d599578" testName="TestSpo2Invalid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001938" startTime="2019-08-02T12:10:36.7696363+05:30" endTime="2019-08-02T12:10:36.7736778+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0956bf7-3628-4f5f-aab9-9ef8e292784b">
+    </UnitTestResult>
+    <UnitTestResult executionId="f84f55c1-1989-4b4e-88ab-f57dab4355cd" testId="863804d6-848a-c3bc-1e6d-6e95f526f8a5" testName="TestSpo2Valid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002424" startTime="2019-08-02T12:10:36.7756362+05:30" endTime="2019-08-02T12:10:36.7786336+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f84f55c1-1989-4b4e-88ab-f57dab4355cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c18b380-178e-4bac-bc5d-910359f1a4d1" testId="9dcd935f-7349-6bbb-9de8-8d3833ae9fe1" testName="TestTempBoundaryMinus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0003051" startTime="2019-08-02T12:10:36.7806406+05:30" endTime="2019-08-02T12:10:36.7826357+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c18b380-178e-4bac-bc5d-910359f1a4d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd600f59-3db4-4ba9-9a80-c0dbd058baab" testId="ddb96599-2344-1c94-7b25-024559ad73b3" testName="TestTempBoundaryPlus1" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0002711" startTime="2019-08-02T12:10:36.7846383+05:30" endTime="2019-08-02T12:10:36.7866345+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd600f59-3db4-4ba9-9a80-c0dbd058baab">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd003c35-479e-495e-af33-e29f986534da" testId="cd6cd233-ad01-65af-f5ad-a475e76877f6" testName="TestTempBoundaryZero" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001895" startTime="2019-08-02T12:10:36.7926354+05:30" endTime="2019-08-02T12:10:36.7946348+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd003c35-479e-495e-af33-e29f986534da">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe5550bd-7e1b-4100-9863-adc4e7f09643" testId="f67c9753-00ab-3f6b-09e9-82550a44cc31" testName="TestTempInvalid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0001593" startTime="2019-08-02T12:10:36.7966407+05:30" endTime="2019-08-02T12:10:36.7986407+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe5550bd-7e1b-4100-9863-adc4e7f09643">
+    </UnitTestResult>
+    <UnitTestResult executionId="ac5b815f-19c7-4ec5-8fc3-e3c006b9fb1e" testId="243659e1-a994-f57b-1b27-a57cb21ffdc9" testName="TestTempValid" computerName="INGBTCPIC5NBZZ4" duration="00:00:00.0004255" startTime="2019-08-02T12:10:36.8006406+05:30" endTime="2019-08-02T12:10:36.8046383+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac5b815f-19c7-4ec5-8fc3-e3c006b9fb1e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
